@@ -7,12 +7,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /*Шапка сайта header*/
 
 .header {
     background-image: url("Photos/header-img.png");
     height: 831px;
-
 
 }
 
@@ -20,18 +24,47 @@ body {
     display: flex;
     justify-content: space-evenly;
     height: 88px;
-    gap: 214px;
     align-items: center;
 
-}
-
-a {
-    text-decoration: none;
-    color: white;
 }
 
 .menu__bar {
     display: inline-flex;
     gap: 50px;
+
+}
+
+.menu {
+
+    font-size: 20px;
+}
+
+/*Медиа запрос,Шапка сайта header*/
+
+@media (max-width: 1024px) {
+
+    .menu__bar {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .menu__bar {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .logo {
+        width: 133px;
+        height: 22px;
+    }
+
+    .menu__bar {
+        display: none;
+    }
+
 
 }
