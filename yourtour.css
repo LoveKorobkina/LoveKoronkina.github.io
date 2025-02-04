@@ -17,8 +17,11 @@ a {
 
 
 .header {
+
     background-image: url("Photos/header-img.png");
     height: 831px;
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -29,6 +32,7 @@ a {
 }
 
 .menu__list {
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -38,6 +42,7 @@ a {
 }
 
 .menu__bar {
+
     display: inline-flex;
     gap: 50px;
 
@@ -51,6 +56,62 @@ a {
 .menu:hover {
 
     text-decoration: underline;
+}
+
+.header__text {
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 768px;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+h1 {
+    font-size: 96px;
+    text-align: center;
+    margin: auto;
+    max-height: 315px;
+    line-height: 104px;
+
+
+}
+
+.header_btn {
+    width: 118px;
+    height: 34px;
+    padding: 5px 20px 5px 20px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #1B1F2B;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+p {
+    max-height: 56px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 562px;
+    margin: 0;
+    line-height: 28px;
+    font-weight: 400;
+
+
+}
+
+.header__h1 {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 119px;
+
 }
 
 /*Медиа запрос,Шапка сайта header*/
@@ -94,4 +155,11 @@ a {
         font-size: 16px;
     }
 
+}
+
+/* Main - основное содержимое сайта */
+
+.main {
+
+    background-color: #F9F7F4;
 }
