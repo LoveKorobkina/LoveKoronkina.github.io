@@ -113,7 +113,7 @@ p {
 
 }
 
-/*Медиа запрос,Шапка сайта header*/
+/*Медиа запросы*/
 
 @media (max-width: 1024px) {
 
@@ -129,15 +129,6 @@ p {
 
 }
 
-@media (max-width: 450px) {
-
-    .menu__list {
-        position: sticky;
-    }
-
-
-
-}
 
 @media (max-width: 780px) {
 
@@ -145,6 +136,18 @@ p {
         display: none;
     }
 
+    h2 {
+
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .choose__menu {
+
+        font-size: 16px;
+        line-height: 22px;
+        justify-content: center;
+    }
 
 
 }
@@ -165,7 +168,15 @@ p {
 
 }
 
+@media (max-width: 450px) {
 
+    .menu__list {
+        position: sticky;
+    }
+
+
+
+}
 
 @media (max-width: 360px) {
 
@@ -202,6 +213,19 @@ p {
         font-weight: 700;
         line-height: 38px;
     }
+
+    h2 {
+
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .choose__menu {
+
+        font-size: 16px;
+        line-height: 22px;
+    }
+
 }
 
 /* Main - основное содержимое сайта */
@@ -209,4 +233,61 @@ p {
 .main {
 
     background-color: #F9F7F4;
+    margin: 0;
+}
+
+/* Блок choose your tour*/
+
+h2 {
+
+    color: black;
+    font-size: 59px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 135px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.choose {
+
+    color: #1B1F2B;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+.choose_orange {
+
+    color: #EFA501;
+    border-bottom: 2px solid #EFA501;
+    font-size: 23px;
+    font-weight: 700;
+
+}
+
+.choose__menu {
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+.main__choose {
+    align-items: center;
+
+}
+
+.main__content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choose:hover {
+
+    text-decoration: underline;
 }
