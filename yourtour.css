@@ -270,7 +270,7 @@ h2 {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-
+    padding-bottom: 106px;
 
 }
 
@@ -290,4 +290,21 @@ h2 {
 .choose:hover {
 
     text-decoration: underline;
+}
+
+.choose__cards {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+
+    width: 370px;
+    height: 531px;
+    background-image: 
+
+
 }
