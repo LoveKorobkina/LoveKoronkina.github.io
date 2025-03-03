@@ -365,6 +365,11 @@ h3 {
 
 }
 
+.card_icon {
+
+    margin-left: 15px;
+}
+
 .card_choose_img1 {
 
     background-image: url("Photos/Choose your tour/card tour photo-1.png");
