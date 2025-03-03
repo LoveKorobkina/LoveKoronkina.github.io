@@ -226,12 +226,16 @@ p {
         line-height: 22px;
     }
 
+
+
+
 }
 
 /* Main - основное содержимое сайта */
 
 .main {
-
+    display: flex;
+    justify-content: center;
     background-color: #F9F7F4;
     margin: 0;
 }
@@ -284,7 +288,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
 }
 
 .choose:hover {
@@ -292,11 +296,15 @@ h2 {
     text-decoration: underline;
 }
 
+/* Блок choose__cards */
+
 .choose__cards {
 
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    max-width: 1170px;
+    gap: 30px;
 
 }
 
@@ -304,7 +312,85 @@ h2 {
 
     width: 370px;
     height: 531px;
-    background-image: 
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+}
 
+.card:hover {
+
+    cursor: pointer;
+}
+
+.card_text {
+
+    padding: 50px 0px 0px 50px;
+}
+
+h3 {
+
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42.7px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.linear-gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 50px;
+    height: 100%;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.card_price {
+
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    line-height: 24.14px;
+    text-align: left;
+}
+
+.card_link {
+    font-size: 23px;
+    font-weight: 700;
+    padding: 0px 50px 50px 50px;
+    line-height: 28.06px;
+
+}
+
+.card_choose_img1 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-1.png");
+}
+
+.card_choose_img2 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-2.png");
+}
+
+.card_choose_img3 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-3.png")
+}
+
+.card_choose_img4 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-4.png")
+}
+
+.card_choose_img5 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-5.png")
+}
+
+.card_choose_img6 {
+
+    background-image: url("Photos/Choose your tour/card tour photo-6.png")
 }
