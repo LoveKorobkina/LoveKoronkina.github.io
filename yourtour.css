@@ -317,7 +317,11 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    display: inline-block;
+    transition: background-size 300ms ease;
+    overflow: hidden;
+    background-size: 100% auto;
+    background-position: center;
 
 }
 
@@ -365,15 +369,26 @@ h3 {
     font-weight: 700;
     margin: 50px;
     line-height: 28.06px;
+    width: 199px;
+    height: 42px;
+    margin-left: 30px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 
 }
 
 .card_choose_img1:hover .card_link {
+
     background-color: #286562;
-    width: 199px;
-    height: 42px;
     border-radius: 50px;
+
 }
+
+
+
 
 
 
@@ -383,15 +398,24 @@ h3 {
 }
 
 .card_choose_img1 {
-    display: inline-block;
-    transition: background-size 300ms ease;
-    overflow: hidden;
     background-image: url("Photos/Choose your tour/card tour photo-1.png");
-    background-size: 100% auto;
-    background-position: center;
+
 }
 
 .card_choose_img1:hover {
+    background-position: center;
+    background-size: 120% auto;
+
+}
+
+.card_choose_img2:hover .card_link {
+
+    background-color: #286562;
+    border-radius: 50px;
+
+}
+
+.card_hover:hover {
     background-position: center;
     background-size: 120% auto;
 
@@ -407,9 +431,23 @@ h3 {
     background-image: url("Photos/Choose your tour/card tour photo-3.png")
 }
 
+.card_choose_img3:hover .card_link {
+
+    background-color: #286562;
+    border-radius: 50px;
+
+}
+
 .card_choose_img4 {
 
     background-image: url("Photos/Choose your tour/card tour photo-4.png")
+}
+
+.card_choose_img4:hover .card_link {
+
+    background-color: #286562;
+    border-radius: 50px;
+
 }
 
 .card_choose_img5 {
@@ -417,7 +455,21 @@ h3 {
     background-image: url("Photos/Choose your tour/card tour photo-5.png")
 }
 
+.card_choose_img5:hover .card_link {
+
+    background-color: #286562;
+    border-radius: 50px;
+
+}
+
 .card_choose_img6 {
 
     background-image: url("Photos/Choose your tour/card tour photo-6.png")
+}
+
+.card_choose_img6:hover .card_link {
+
+    background-color: #286562;
+    border-radius: 50px;
+
 }
