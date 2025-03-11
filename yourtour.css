@@ -92,6 +92,18 @@ h1 {
 
 }
 
+.header_btn:active {
+
+    background-color: #F8E6BE;
+    color: black;
+}
+
+.header_btn:hover {
+
+    background-color: #EFA501;
+    color: white;
+}
+
 
 p {
     max-height: 56px;
@@ -113,7 +125,7 @@ p {
 
 }
 
-/*Медиа запросы*/
+/*Медиа запросы блока header*/
 
 @media (max-width: 1024px) {
 
@@ -128,7 +140,6 @@ p {
 
 
 }
-
 
 @media (max-width: 780px) {
 
@@ -173,8 +184,6 @@ p {
     .menu__list {
         position: sticky;
     }
-
-
 
 }
 
@@ -225,9 +234,6 @@ p {
         font-size: 16px;
         line-height: 22px;
     }
-
-
-
 
 }
 
@@ -387,37 +393,21 @@ h3 {
 
 }
 
-
-
-
-
-
 .card_icon {
 
     margin-left: 15px;
 }
 
-.card_choose_img1 {
-    background-image: url("Photos/Choose your tour/card tour photo-1.png");
-
-}
-
-.card_choose_img1:hover {
-    background-position: center;
-    background-size: 120% auto;
-
-}
-
-.card_choose_img2:hover .card_link {
-
-    background-color: #286562;
-    border-radius: 50px;
-
-}
-
 .card_hover:hover {
     background-position: center;
     background-size: 120% auto;
+
+}
+
+/* Картинки блока Выбери тур */
+
+.card_choose_img1 {
+    background-image: url("Photos/Choose your tour/card tour photo-1.png");
 
 }
 
@@ -431,23 +421,9 @@ h3 {
     background-image: url("Photos/Choose your tour/card tour photo-3.png")
 }
 
-.card_choose_img3:hover .card_link {
-
-    background-color: #286562;
-    border-radius: 50px;
-
-}
-
 .card_choose_img4 {
 
     background-image: url("Photos/Choose your tour/card tour photo-4.png")
-}
-
-.card_choose_img4:hover .card_link {
-
-    background-color: #286562;
-    border-radius: 50px;
-
 }
 
 .card_choose_img5 {
@@ -455,21 +431,69 @@ h3 {
     background-image: url("Photos/Choose your tour/card tour photo-5.png")
 }
 
-.card_choose_img5:hover .card_link {
-
-    background-color: #286562;
-    border-radius: 50px;
-
-}
-
 .card_choose_img6 {
 
     background-image: url("Photos/Choose your tour/card tour photo-6.png")
 }
 
-.card_choose_img6:hover .card_link {
+.card:hover .card_link {
 
     background-color: #286562;
     border-radius: 50px;
+
+}
+
+.card:active .card_link {
+
+    background-color: #EFA501;
+}
+
+/*Медиа запросы на блок Найти тур*/
+
+@media (max-width: 1240px) {
+
+    .choose__cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 450px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    h2 {
+
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 38.08px;
+    }
+
+    .choose {
+
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22.72px;
+    }
+
+    .card {
+
+        width: 318px;
+        height: 318px;
+
+    }
+}
+
+
+/*@media (max-width: 780px) @media (max-width: 600px) @media (max-width: 450px) @media (max-width: 360px)*/
+
+
+/* Блок Собери свой тур*/
+
+.main__create {
+
+max-height: 1245px ;
 
 }
