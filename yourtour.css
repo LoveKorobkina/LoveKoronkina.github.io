@@ -494,6 +494,22 @@ h3 {
 
 .main__create {
 
-max-height: 1245px ;
+    max-height: 1245px;
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.create__header {
+
+    padding-bottom: 100px;
+}
+
+.create__form {
+    height: 986px; /*исправить на максheight!!!после проработки блока*/
+    background-color: #FFFFFF;
 
 }

@@ -155,38 +155,61 @@
                 </div>
             </div>
             <div class="main__create">
-                <h2>Собери свой тур</h2>
-                <p>Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
+                <div class="create__header">
+                    <h2>Собери свой тур</h2>
+                    <p>Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
+                </div>
                 <div class="create__form">
                     <form action="#" method="post">
+                        <div class="form__input">
 
-                        <label for="POST-name"></label>
-                        <input id="POST-name" type="text" name="name" />
+                            <label for="POST-name">Имя</label>
+                            <input id="POST-name" type="text" name="Имя" placeholder="Введите Ваше имя" />
 
-                        <div class="dropdown__list">
-                            <label for="POST-name"></label>
-                            <input id="POST-name" type="text" name="name" />
-                            <select>
-                                <option value="#"></option>
-                            </select>
+                            <div class="dropdown__list">
+                                <label for="POST-search">Направление</label>
+                                <input id="POST-search" type="search" name="Поиск" placeholder="Куда хотите поехать" />
+                                <select>
+                                    <option value="#"></option>
+                                </select>
+                            </div>
+
+                            <label for="POST-email">Email</label>
+                            <input id="POST-email" type="text" name="email" placeholder="example@mail.com" />
+
+                            <label for="POST-telephone">Телефон</label>
+                            <input id="POST-telephone" type="number" pattern="[1-9]*" name="telephone"
+                                placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" />
+
+                            <label for="POST-date">Дата от</label>
+                            <input id="POST-date" type="date" name="date" placeholder="ДД.ММ.ГГГГ" />
+
+                            <label for="POST-date2">Дата до</label>
+                            <input id="POST-date2" type="date" name="date2" placeholder="ДД.ММ.ГГГГ" />
+
+                            <label for="POST-comment">Комментарий</label>
+                            <input id="POST-comment" type="text" name="comment" />
                         </div>
 
-                        <label for="POST-name">Name:</label>
-                        <input id="POST-name" type="text" name="name" />
+                        <div class="create__rbtn">
 
-                        <label for="POST-name">Name:</label>
-                        <input id="POST-name" type="text" name="name" />
+                            <label for="age">Вам есть 18 лет?</label>
 
-                        <label for="POST-name">Name:</label>
-                        <input id="POST-name" type="text" name="name" />
+                            <label for="Yes">Да</label>
+                            <input type="radio" id="Yes" name="age" />
 
-                        <label for="POST-name">Name:</label>
-                        <input id="POST-name" type="text" name="name" />
+                            <label for="No">Нет</label>
+                            <input type="radio" id="radio-btn" name="age" />
 
-                        <label for="POST-name">Name:</label>
-                        <input id="POST-name" type="text" name="name" />
+                        </div>
+
+                        <label>
+                            <input type="checkbox"> Нажимая кнопку, я принимаю условия <b>Лицензионного договора</b>
+                        </label>
+
                         <input type="submit" value="Найти тур" />
                         <input type="reset" value="Сбросить" />
+
                     </form>
 
                 </div>
