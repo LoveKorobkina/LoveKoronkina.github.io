@@ -509,7 +509,57 @@ h3 {
 }
 
 .create__form {
-    height: 986px; /*исправить на максheight!!!после проработки блока*/
+    height: 986px;
+    width: 1170px;
+    /*исправить на максheight!!!после проработки блока*/
     background-color: #FFFFFF;
+    border-radius: 50px;
+}
 
+.forms {
+
+    width: 500px;
+    height: 68px;
+    color: #F9F7F4;
+    border-radius: 10px;
+    border: 1px #F4F0E9;
+    padding: 20px;
+    gap: 10px;
+    background-color: #F9F7F4;
+    margin-top: 8px;
+}
+
+.forms_comment {
+
+    height: 152px;
+}
+
+.form__col {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form__column {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form {
+
+    margin: 70px;
+}
+
+.form__input {
+
+    display: flex;
+    gap: 30px;
+}
+
+select {
+
+    position: absolute;
 }
