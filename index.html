@@ -157,12 +157,12 @@
             <div class="main__create">
                 <div class="create__header">
                     <h2>Собери свой тур</h2>
-                    <p>Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
+                    <p class="cr__p">Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
                 </div>
                 <div class="create__form">
                     <form class="form" action="#" method="post">
                         <div class="form__input">
-                            <div class="form__col">
+                            <div class="form__column">
 
                                 <label for="POST-name">Имя</label>
                                 <input class="forms" id="POST-name" type="text" name="Имя"
@@ -177,8 +177,8 @@
 
                             </div>
                             <div class="form__column">
-
                                 <div class="dropdown__list">
+
                                     <label for="POST-search">Направление</label>
                                     <input class="forms" id="POST-search" type="search" name="Поиск"
                                         placeholder="Куда хотите поехать">
@@ -190,11 +190,10 @@
                                         fill="#1B1F2B" />
                                 </svg>
                                 -->
- 
-                                        <select>
-                                            <option value="#"></option>
-                                        </select>
-                                    
+                                    <select>
+                                        <option value="#"></option>
+                                    </select>
+
                                 </div>
 
                                 <label for="POST-telephone">Телефон</label>
@@ -205,30 +204,38 @@
                                 <input class="forms" id="POST-date2" type="date" name="date2"
                                     placeholder="ДД.ММ.ГГГГ" />
                             </div>
+
                         </div>
 
                         <label for="POST-comment">Комментарий</label>
                         <input class="forms forms_comment" id="POST-comment" type="text" name="comment" />
 
+                        <label for="age">Вам есть 18 лет?</label>
+
                         <div class="create__rbtn">
 
-                            <label for="age">Вам есть 18 лет?</label>
-
-                            <label for="Yes">Да</label>
                             <input type="radio" id="Yes" name="age" />
+                            <label for="Yes">Да</label>
 
+                            <input type="radio" id="No" name="age" />
                             <label for="No">Нет</label>
-                            <input type="radio" id="radio-btn" name="age" />
 
                         </div>
+                        <div class="check__btn">
+                            <label class="checkbox">
+                                <input type="checkbox"> Нажимая кнопку, я принимаю условия <span
+                                    class="dog">Лицензионного
+                                    договора</b>
+                            </label>
 
-                        <label>
-                            <input type="checkbox"> Нажимая кнопку, я принимаю условия <b>Лицензионного договора</b>
-                        </label>
-
-                        <input type="submit" value="Найти тур" />
-                        <input type="reset" value="Сбросить" />
-
+                            <div class="create__btns">
+                                <button class="create__btn">Найти тур</button>
+                                <input class="create__inp" type="reset" value="Сбросить" />
+                                <!-- <input class="" type="submit" value="Найти тур" />
+                                <input type="reset" value="Сбросить" />
+                                -->
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
