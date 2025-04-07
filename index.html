@@ -157,58 +157,72 @@
             <div class="main__create">
                 <div class="create__header">
                     <h2>Собери свой тур</h2>
-                    <p class="cr__p">Идейные соображения высшего порядка,а также рамки и место обучения кадров</p>
+                    <p class="cr__p">Идейные соображения высшего порядка,<br> а также рамки и место обучения кадров</p>
                 </div>
                 <div class="create__form">
                     <form class="form" action="#" method="post">
+
                         <div class="form__input">
-                            <div class="form__column">
+                            <div class="form__inline">
 
-                                <label for="POST-name">Имя</label>
-                                <input class="forms" id="POST-name" type="text" name="Имя"
-                                    placeholder="Введите Ваше имя" />
+                                <div class="form__in">
+                                    <label for="POST-name">Имя</label>
+                                    <input class="forms" id="POST-name" type="text" name="Имя"
+                                        placeholder="Введите Ваше имя" />
+                                </div>
 
-                                <label for="POST-email">Email</label>
-                                <input class="forms" id="POST-email" type="text" name="email"
-                                    placeholder="example@mail.com" />
-
-                                <label for="POST-date">Дата от</label>
-                                <input class="forms" id="POST-date" type="date" name="date" placeholder="ДД.ММ.ГГГГ" />
-
-                            </div>
-                            <div class="form__column">
-                                <div class="dropdown__list">
-
+                                <div class="form__in">
                                     <label for="POST-search">Направление</label>
-                                    <input class="forms" id="POST-search" type="search" name="Поиск"
-                                        placeholder="Куда хотите поехать">
+                                    <!-- <input class="forms" id="POST-search" type="search" name="Поиск"
+                                    placeholder="Куда хотите поехать"> -->
+                                    <div class="dropdown__list">
+                                        <select class="forms" name="select" >
+                                            <option value="#">Куда хотите ехать?</option>
+                                            <option value="#"></option>
+                                            <option value="#"></option>
+                                            <option value="#"></option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
 
-                                    <!-- Уточнить как именно подключить картинку, или испольщовать стандартную выпадашку select <svg width="13" height="13" viewBox="0 0 26 26" fill="none"
+                            <div class="form__inline">
+                                <div class="form__in">
+                                    <label for="POST-email">Email</label>
+                                    <input class="forms" id="POST-email" type="text" name="email"
+                                        placeholder="example@mail.com" />
+                                </div>
+                                <div class="form__in">
+                                    <label for="POST-telephone">Телефон</label>
+                                    <input class="forms" id="POST-telephone" type="number" pattern="[1-9]*"
+                                        name="telephone" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" />
+                                </div>
+                            </div>
+
+                            <div class="form__inline">
+                                <div class="form__in">
+                                    <label for="POST-date">Дата от</label>
+                                    <input class="forms" id="POST-date" type="date" name="date"
+                                        placeholder="ДД.ММ.ГГГГ" />
+                                </div>
+                                <div class="form__in">
+                                    <label for="POST-date2">Дата до</label>
+                                    <input class="forms" id="POST-date2" type="date" name="date2"
+                                        placeholder="ДД.ММ.ГГГГ" />
+                                </div>
+                            </div>
+                            <!-- Уточнить как именно подключить картинку, или испольщовать стандартную выпадашку select <svg width="13" height="13" viewBox="0 0 26 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M13 19.4141L4.29289 10.707C3.90236 10.3164 3.90237 9.68326 4.29289 9.29274C4.68341 8.90221 5.31658 8.90221 5.7071 9.29274L13 16.5856L20.2929 9.29274C20.6834 8.90221 21.3166 8.90221 21.7071 9.29274C22.0976 9.68326 22.0976 10.3164 21.7071 10.707L13 19.4141Z"
                                         fill="#1B1F2B" />
                                 </svg>
                                 -->
-                                    <select>
-                                        <option value="#"></option>
-                                    </select>
-
-                                </div>
-
-                                <label for="POST-telephone">Телефон</label>
-                                <input class="forms" id="POST-telephone" type="number" pattern="[1-9]*" name="telephone"
-                                    placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" />
-
-                                <label for="POST-date2">Дата до</label>
-                                <input class="forms" id="POST-date2" type="date" name="date2"
-                                    placeholder="ДД.ММ.ГГГГ" />
-                            </div>
-
                         </div>
 
                         <label for="POST-comment">Комментарий</label>
-                        <input class="forms forms_comment" id="POST-comment" type="text" name="comment" />
+                        <textarea class="forms_comment" id="POST-comment" type="text" name="comment" >
+                        </textarea>
 
                         <label for="age">Вам есть 18 лет?</label>
 
@@ -227,15 +241,13 @@
                                     class="dog">Лицензионного
                                     договора</b>
                             </label>
-
-                            <div class="create__btns">
-                                <button class="create__btn">Найти тур</button>
-                                <input class="create__inp" type="reset" value="Сбросить" />
-                                <!-- <input class="" type="submit" value="Найти тур" />
-                                <input type="reset" value="Сбросить" />
-                                -->
-                            </div>
                         </div>
+
+                        <div class="create__btns">
+                            <button class="create__btn">Найти тур</button>
+                            <input type="reset" class="create__inp" value="Сбросить" />
+                        </div>
+
                     </form>
                 </div>
             </div>

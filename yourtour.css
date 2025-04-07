@@ -312,6 +312,7 @@ h2 {
     align-items: center;
     max-width: 1170px;
     gap: 30px;
+    padding-bottom: 35px;
 
 }
 
@@ -463,13 +464,40 @@ h3 {
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 960px) {
 
     h2 {
 
         font-weight: 700;
         font-size: 34px;
         line-height: 38.08px;
+    }
+
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+        width: 268px;
+        height: 28px;
+    }
+
+    .card_price {
+
+        margin-top: 13px;
+    }
+
+    .card_link {
+
+        font-weight: 700;
+        font-size: 16px;
+        margin: 25px 25px 25px 5px;
+        padding-left: 20px;
+    }
+
+    .choose__cards {
+
+        display: flex;
+        flex-direction: column;
+
     }
 
     .choose {
@@ -485,6 +513,12 @@ h3 {
         height: 318px;
 
     }
+
+    .card_text {
+
+        margin: 25px;
+    }
+
 }
 
 
@@ -525,11 +559,11 @@ h3 {
     height: 68px;
     border-radius: 10px;
     border: 1px #F4F0E9;
-    padding: 20px;
     gap: 10px;
     background-color: #F9F7F4;
+    padding: 20px;
     margin-top: 8px;
-    padding: 20px 0px 20px 20px;
+    margin-right: 30px;
     text-align: start;
     margin-bottom: 33px;
 
@@ -547,10 +581,16 @@ h3 {
     width: 1030px;
 }
 
-.form__column {
+.form__flcol {
 
     display: flex;
     flex-direction: column;
+}
+
+.form__inline {
+
+    display: inline-flex;
+
 
 }
 
@@ -562,13 +602,29 @@ h3 {
 .form__input {
 
     display: flex;
-    gap: 30px;
+    flex-direction: column;
 }
 
-select {
-
-    position: absolute;
+.forms_comment {
+    max-width: 1130px;
+    max-height: 152px;
+    border-radius: 10px;
+    border: 1px #F4F0E9;
+    gap: 10px;
+    background-color: #F9F7F4;
+    padding: 20px;
+    margin-top: 8px;
+    margin-right: 30px;
+    text-align: start;
+    margin-bottom: 33px;
 }
+
+.form__in {
+
+    display: flex;
+    flex-direction: column;
+}
+
 
 .create__rbtn {
 
@@ -632,6 +688,13 @@ label {
     border: none;
 }
 
+option {
+
+    color: #A6A6A6;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 /*Медиа запросы блока create*/
 
 @media (max-width: 1240px) {
@@ -640,6 +703,12 @@ label {
 
         max-width: 918px;
         max-height: 966px;
+
+    }
+
+    .form {
+
+        margin: 60px;
     }
 
     .forms {
@@ -650,19 +719,24 @@ label {
 
     .forms_comment {
 
-        width: 798px;
-        height: 152px;
+        max-width: 808px;
+        max-height: 152px;
+        margin-right: 0px;
+        padding-right: 0px;
     }
 }
 
 @media (max-width: 960px) {
 
+
+
     .create__form {
         display: flex;
         flex-direction: column;
-        max-width: 442px;
+        max-width: 318px;
         max-height: 1110px;
         margin: 20px;
+        margin-bottom: 40px;
 
     }
 
@@ -682,14 +756,18 @@ label {
 
         font-size: 34px;
         font-weight: 700;
+        padding-top: 45px;
 
     }
 
     .cr__p {
 
-        max-height: 46px;
-        max-width: 318px;
+        height: 46px;
+        width: 318px;
         font-size: 16px;
+        font-weight: 400;
+
+
     }
 
     .create__header {
@@ -714,6 +792,21 @@ label {
         width: 134px;
         height: 47px;
     }
+
+    .forms_comment {
+
+        max-width: 278px;
+        max-height: 132px;
+
+    }
+
+    .form__inline {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
 }
 
 @media (max-width: 520px) {
@@ -742,9 +835,5 @@ label {
         gap: 0px;
     }
 
-    .forms_comment {
 
-        max-width: 278px;
-        max-height: 132px;
-    }
 }
