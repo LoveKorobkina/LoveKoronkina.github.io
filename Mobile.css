@@ -1,0 +1,59 @@
+/*Медиа запросы блока header*/
+
+@media (max-width: 450px) {
+
+    .menu__list {
+        position: sticky;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    body {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 133px;
+        height: 22px;
+    }
+
+    .menu__bar {
+        display: none;
+    }
+
+    .menu {
+        width: 124px;
+        height: 23px;
+        font-size: 16px;
+    }
+
+    p {
+        max-width: 310px;
+        max-height: 69px;
+
+    }
+
+    h1 {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    h2 {
+
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .choose__menu {
+
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
