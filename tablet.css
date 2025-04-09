@@ -12,13 +12,18 @@
         line-height: 38px;
     }
 
+}
+
+@media (max-width: 520px) {
+
     .choose__menu {
 
+        padding-bottom: 50px;
         font-size: 16px;
-        line-height: 22px;
+        font-weight: 700;
         justify-content: center;
-    }
 
+    }
 
 }
 
@@ -42,13 +47,6 @@
 
 @media (max-width: 520px) {
 
-    .create__form {
-
-        margin-top: 40px;
-        padding: 20px 20px 40px 20px;
-        max-width: 318px;
-        max-height: 1110px;
-    }
 
     .form {
 
