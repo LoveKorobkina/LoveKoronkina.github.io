@@ -57,6 +57,7 @@
 
         max-width: 278px;
         max-height: 43px;
+
     }
 
     .form__input {
@@ -64,5 +65,183 @@
         gap: 0px;
     }
 
+
+}
+
+@media (max-width: 960px) {
+
+    .form__input {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .create__form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 318px;
+        max-height: max-content;
+        border-radius: 30px;
+
+
+    }
+
+    .form {
+
+        margin: 20px 20px 40px 20px;
+
+    }
+
+    .forms {
+
+        width: 278px;
+        height: 43px;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    h2 {
+
+        font-size: 34px;
+        font-weight: 700;
+
+    }
+
+    .cr__p {
+
+        height: 46px;
+        width: 318px;
+        font-size: 16px;
+        font-weight: 400;
+
+
+    }
+
+    .create__header {
+
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+
+    .create__btns {
+
+        display: inline-flex;
+
+    }
+
+    .create__btn {
+        max-width: 134px;
+        max-height: 47px;
+        margin-right: 10px;
+    }
+
+    .create__inp {
+        width: 134px;
+        height: 47px;
+    }
+
+    .forms_comment {
+
+        max-width: 278px;
+        max-height: 132px;
+        margin-bottom: 30px;
+        padding: 0px;
+
+    }
+
+    .form__inline {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 30px;
+
+    }
+
+}
+
+/*медиа запросы на блок choose*/
+
+@media (max-width: 960px) {
+
+    h2 {
+
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 38.08px;
+        padding-top: 75px;
+        padding-bottom: 25px;
+
+    }
+
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+        width: 268px;
+        height: 28px;
+    }
+
+    .card_price {
+
+        margin-top: 13px;
+    }
+
+    .card_link {
+
+        font-weight: 700;
+        font-size: 16px;
+        margin: 25px 25px 25px 5px;
+        padding-left: 20px;
+    }
+
+    .choose__cards {
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .choose {
+
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22.72px;
+    }
+
+    .card {
+
+        width: 318px;
+        height: 318px;
+
+    }
+
+    .card_text {
+
+        margin: 25px;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .form__in {
+
+        gap: 8px;
+
+    }
+
+    .create__rbtn {
+
+        padding-bottom: 30px;
+    }
+
+    .checkbox {
+
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
 
 }
