@@ -70,6 +70,11 @@
 
 @media (max-width: 960px) {
 
+    .main__content {
+
+        gap: 75px;
+    }
+
     .form__input {
         display: flex;
         flex-direction: column;
@@ -246,4 +251,109 @@
 
 }
 
-/*Блок reviews(отзывы)*/
+/*Медиа запросы блока reviews(Отзывы)*/
+
+@media (max-width: 960px) {
+
+    .main__reviews {
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .reviews__h2 {}
+
+    .h2_rev {
+
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .reviews_p {
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .reviews__cards {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .card__rev {
+
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+
+    .card__pavel {
+        width: 318px;
+        height: 592px;
+    }
+
+    .card__mary {
+
+        width: 318px;
+        height: 408px;
+    }
+
+    .text__pavel {
+
+        max-width: 278px;
+        max-height: 437px;
+        line-height: 142%;
+
+    }
+
+    .text__mary {
+
+        max-width: 278px;
+        max-height: 253px;
+        line-height: 142%;
+    }
+
+    .text_rev {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        max-width: 278px;
+        max-height: 253px;
+    }
+
+    .name_rev {
+
+        padding-top: 56px;
+
+    }
+
+    .card_nprev {
+
+        width: 203px;
+        height: 59px;
+        gap: 8px;
+       
+
+    }
+
+    .name_p {
+
+        font-size: 23px;
+        font-weight: 700;
+        
+    }
+
+    .p_rev {
+
+        text-align: start;
+        line-height: 142%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+}
