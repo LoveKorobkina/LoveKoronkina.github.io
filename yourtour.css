@@ -22,6 +22,7 @@ a {
     height: 831px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -622,4 +623,66 @@ option {
     border-radius: 100px;
 }
 
-/*Блок foto*/
+/*Блок photo (Фото путешественников)*/
+
+.main__photos {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.photos__h2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.h2_photo {
+
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 124%;
+    padding-top: 0px;
+
+}
+
+.p_photo {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142%;
+    text-align: center;
+    color: #A6A6A6;
+
+}
+
+.photos__traveler {
+    display: grid;
+
+    padding-top: 100px;
+    gap: 30px;
+}
+
+.photo_grid4 {
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.photo_grid5 {
+    
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.img_tr {
+
+    border-radius: 50px;
+}
