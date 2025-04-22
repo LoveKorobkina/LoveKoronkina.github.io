@@ -65,17 +65,62 @@
 
 @media (max-width: 1240px) {
 
-.card__rev {
+    .card__rev {
 
-    width: 450px;
-    height: 841px;
-}
+        width: 450px;
+        height: 841px;
+    }
 
-.reviews__cards {
+    .reviews__cards {
 
-    gap: 18px;
-}
+        gap: 18px;
+    }
 
 }
 
 /*Медиа запросы блока photo (Фото путешественников)*/
+
+@media (max-width: 1240px) {
+
+    .photos__h2 {
+
+        padding-top: 135px;
+    }
+
+    .photos__traveler {
+        gap: 30px;
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+    .photo_grid4 .img {
+
+        max-width: 314px;
+       
+    }
+
+    .photo_grid4 {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .photo_grid5 {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .photo_grid5 .img {
+
+        max-width: 231px;
+
+    }
+
+
+}

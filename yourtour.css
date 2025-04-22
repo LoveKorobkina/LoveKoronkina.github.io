@@ -629,6 +629,8 @@ option {
 
     display: flex;
     flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
 
 
 }
@@ -685,4 +687,6 @@ option {
 .img_tr {
 
     border-radius: 50px;
+    width: 100%;
+    
 }
