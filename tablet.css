@@ -420,7 +420,7 @@
     .photo_grid5 .img_tr {
 
         max-width: 99px;
-        
+
     }
 
     .img_tr {
@@ -434,3 +434,53 @@
 }
 
 /*Блок history (Истории путешествий)*/
+
+/*Блок conclusion (заключение)*/
+
+@media (max-width: 960px) {
+
+    .conclusion_elements {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img_con {
+
+        max-width: 130px;
+        max-height: 133px;
+        border-radius: 20px;
+    }
+
+    .con_text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .con_h3 {
+        width: 291px;
+        height: 56px;
+        text-align: center;
+    }
+
+    .h3_con {
+
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 120%;
+
+    }
+
+
+
+    .p_con {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        text-align: center;
+    }
+
+}

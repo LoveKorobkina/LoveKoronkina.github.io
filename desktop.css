@@ -137,21 +137,13 @@
         background-size: cover;
     }
 
-    .history_img1 {
-
-    }
-
-    .card_hover {}
-
     .card_his:hover {
-        transition: background-size 300ms ease;
+
         background-repeat: no-repeat;
         background-size: 170% auto;
         background-position: center;
-        
+
     }
 
-
-
-
 }
+

@@ -859,4 +859,72 @@ h3 {
     text-decoration: underline;
 }
 
+/*Блок conclusion (заключение) */
+
+.main__conclusion {
+
+} 
+
+.conclusion_elements {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 771px;
+    gap: 30px;
+}
+
+.con_img {
+
+}
+
+.img_con {
+    display: flex;
+    border-radius: 50px;
+}
+
+
+.con_text {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.con_h3 {
+
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 122%;
+    color: #1B1F2B;
+}
+
+.h3_con {
+    padding: 0px;
+}
+
+.con_p {
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 142%;
+    color: #A6A6A6;
+}
+
+.p_con {
+
+    text-align: left;
+}
+
+.con_link {
+
+    color: #1B1F2B;
+}
+
+/*hover conclusion*/
+
+.con_link:hover {
+
+    text-decoration: underline;
+} 
 
