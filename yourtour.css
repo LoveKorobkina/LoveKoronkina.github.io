@@ -293,7 +293,7 @@ h3 {
 
 .card_hover:hover {
     background-position: center;
-    background-size: 120% auto;
+    background-size: 130% auto;
 
 }
 
@@ -744,7 +744,6 @@ option {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    display: inline-block;
     transition: background-size 300ms ease;
     overflow: hidden;
     background-size: 100% auto;
@@ -753,7 +752,7 @@ option {
 }
 
 .card_his:hover {
-    background-size: 120% auto;
+    background-size: 140% auto;
     background-position: center;
 }
 
@@ -771,6 +770,7 @@ option {
     background-image: url("Photos/Travel stories/story photo-3.jpg");
 
 }
+
 /*------------------------------------------------------------------*/
 
 .linear-gradient_his {
@@ -862,8 +862,8 @@ h3 {
 /*Блок conclusion (заключение) */
 
 .main__conclusion {
-
-} 
+    padding-bottom: 135px;
+}
 
 .conclusion_elements {
 
@@ -874,9 +874,7 @@ h3 {
     gap: 30px;
 }
 
-.con_img {
-
-}
+.con_img {}
 
 .img_con {
     display: flex;
@@ -887,7 +885,7 @@ h3 {
 .con_text {
     display: flex;
     flex-direction: column;
-    
+
     gap: 20px;
 }
 
@@ -926,5 +924,53 @@ h3 {
 .con_link:hover {
 
     text-decoration: underline;
-} 
+}
 
+/*Блок footer(подвал)*/
+
+.main__footer {}
+
+.footer_text {
+
+    height: 88px;
+    background-color: #F4F0E9;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+.p_foot {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 142%;
+    color: #A6A6A6;
+}
+
+.foot_link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.foot_link:hover {
+    text-decoration: underline;
+}
+
+.foot_links {
+    display: inline-flex;
+    max-width: 408px;
+    max-height: 28px;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 142%;
+}
+
+.foot_soc {
+
+    color: #1B1F2B;
+
+}

@@ -58,6 +58,23 @@
 
 }
 
+@media (max-width: 960px) {
+
+    .card:hover {
+        background-size: cover;
+    }
+
+    .card_his:hover {
+
+        background-size: cover;
+    }
+}
+
 /*Блок reviews(отзывы)*/
 
 /*Медиа запросы блока photo (Фото путешественников)*/
+
+/*Блок history (Истории путешественников)*/
+
+
+/*Блок Подвал */
