@@ -1,14 +1,26 @@
 /*Медиа запросы блока header*/
 
-@media (min-width: 960px) {
-       
-}
-
-@media (max-width: 780px) {
+@media (max-width: 930px) {
 
     .menu__bar {
         display: none;
     }
+}
+
+@media (max-width: 960px) {
+
+    .card:hover {
+        background-size: cover;
+    }
+
+    .card_his:hover {
+
+        background-size: cover;
+    }
+}
+
+@media (max-width: 780px) {
+
 
     h2 {
 
@@ -111,11 +123,44 @@
         padding: 10px;
     }
 
+    h1 {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 112%;
+        max-width: 300px;
+    }
+
     h2 {
 
         font-size: 34px;
         font-weight: 700;
 
+    }
+
+    .header {
+
+        height: auto;
+    }
+
+    .p_header {
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 142%;
+        max-width: 300px;
+        max-height: 69px;
+    }
+
+    .header__h1 {
+
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .header__text {
+
+        gap: 40px;
     }
 
     .cr__p {
@@ -224,7 +269,7 @@
 
         width: 318px;
         height: 318px;
-        
+
     }
 
     .card_text {
@@ -531,12 +576,7 @@
         width: 318px;
         height: 455px;
         background-size: cover;
-    
-    }
 
-    .card_his:hover {
-
-        
     }
 
     .linear-gradient_his {

@@ -3,12 +3,38 @@
 @media (max-width: 450px) {
 
     .menu__list {
-        position: sticky;
+        position: fixed;
+        top: 0px;
+        background-color: rgba(243, 239, 232, 0.6);
+        width: 100%;
     }
 
-}
+    .logo {
+        display: none;
+    }
 
-@media (max-width: 360px) {
+    .logo2 {
+        display: inline;
+    }
+
+    .menu {
+
+        color: rgba(27, 31, 43, 1);
+    }
+
+    .header__h1 {
+
+        padding-top: 140px;
+    }
+
+    .menu {
+        max-width: 124px;
+        max-height: 23px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
 
     body {
 
@@ -25,23 +51,10 @@
         display: none;
     }
 
-    .menu {
-        width: 124px;
-        height: 23px;
-        font-size: 16px;
-    }
-
     p {
         max-width: 310px;
         max-height: 69px;
 
-    }
-
-    h1 {
-
-        font-size: 34px;
-        font-weight: 700;
-        line-height: 38px;
     }
 
     h2 {
@@ -58,23 +71,11 @@
 
 }
 
-@media (max-width: 960px) {
-
-    .card:hover {
-        background-size: cover;
-    }
-
-    .card_his:hover {
-
-        background-size: cover;
-    }
-}
 
 /*Блок reviews(отзывы)*/
 
 /*Медиа запросы блока photo (Фото путешественников)*/
 
 /*Блок history (Истории путешественников)*/
-
 
 /*Блок Подвал */

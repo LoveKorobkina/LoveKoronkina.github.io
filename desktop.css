@@ -1,4 +1,14 @@
+
+
 /*Медиа запросы блока header*/
+
+@media (max-width: 1200px) {
+
+    .menu__list {
+
+        gap: 82px;
+    }
+}
 
 @media (max-width: 1024px) {
 
@@ -10,6 +20,8 @@
 
         max-width: 442px;
     }
+
+
 
 
 }

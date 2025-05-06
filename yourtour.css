@@ -14,16 +14,16 @@ a {
 
 /*Шапка сайта header*/
 
-
-
 .header {
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-image: url("Photos/header-img.png");
     height: 831px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    
 }
 
 .header__menu {
@@ -35,10 +35,16 @@ a {
 .menu__list {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 28px 0px;
+    gap: 182px;
+    max-height: 88px;
+}
 
+.logo2 {
+
+    display: none;
 }
 
 .menu__bar {
@@ -75,8 +81,8 @@ h1 {
     text-align: center;
     margin: auto;
     max-height: 315px;
-    line-height: 104px;
-
+    line-height: 110%;
+    font-weight: 700;
 
 }
 
@@ -113,17 +119,17 @@ p {
     text-align: center;
     max-width: 562px;
     margin: 0;
-    line-height: 28px;
+    line-height: 142%;
     font-weight: 400;
-
-
 }
 
 .header__h1 {
 
     display: flex;
     justify-content: center;
-    padding-top: 119px;
+    align-items: center;
+    padding: 119px 0px 119px 0px;
+
 
 }
 
@@ -131,10 +137,11 @@ p {
 
 .main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #F9F7F4;
     margin: 0;
-
+    
 }
 
 /* Блок choose your tour*/
@@ -171,13 +178,17 @@ h2 {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-
-
+    height: 34px;
+    align-items: center;
 }
 
 .main__choose {
-    align-items: center;
 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: center;
+    
 }
 
 .main__content {
@@ -258,7 +269,7 @@ h3 {
     font-weight: 400;
     font-size: 17px;
     color: white;
-    line-height: 24.14px;
+    line-height: 142%;
     text-align: left;
     margin-top: 16px;
 }
@@ -267,14 +278,14 @@ h3 {
     font-size: 23px;
     font-weight: 700;
     margin: 50px;
-    line-height: 28.06px;
+    line-height: 122%;
     width: 199px;
     height: 42px;
-    margin-left: 30px;
+    margin: 0px 50px 50px 30px;
     text-align: center;
     vertical-align: middle;
     display: flex;
-    align-items: center;
+    align-items: end;
     padding-left: 20px;
 
 }
