@@ -50,19 +50,32 @@
 
         max-width: 918px;
         max-height: 966px;
-
-    }
-
-    .form {
-
-        margin: 60px;
+        padding: 60px;
     }
 
     .forms {
 
         width: 389px;
         height: 68px;
+        margin-right: 0px;
+
     }
+
+    .form_in {
+
+    width: 389px;
+    height: 104px;
+    
+    }
+
+.form__inline {
+
+    margin-bottom: 33px;
+    width: 798px;
+    height: 104px;
+    margin-right: 0px;
+    gap: 20px;
+}
 
     .forms_comment {
 

@@ -4,6 +4,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=swap" rel="stylesheet">
 <meta name="keywords" content="YourTour,Путешествия" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 
 <head>
     <meta charset="utf-8">
@@ -39,17 +43,17 @@
                 </div>
             </div>
         </div>
-        <div class="main__choose">
-            <h2>Выбери свой тур</h2>
-            <div class="choose__menu">
-                <a class="choose choose_orange" href="#">Популярные</a>
-                <a class="choose" href="#">Авторские</a>
-                <a class="choose" href="#">Походы</a>
-                <a class="choose" href="#">Сплавы</a>
-                <a class="choose" href="#">Велопрогулки</a>
-            </div>
-        </div>
         <div class="main__content">
+            <div class="main__choose">
+                <h2>Выбери свой тур</h2>
+                <div class="choose__menu">
+                    <a class="choose choose_orange" href="#">Популярные</a>
+                    <a class="choose" href="#">Авторские</a>
+                    <a class="choose" href="#">Походы</a>
+                    <a class="choose" href="#">Сплавы</a>
+                    <a class="choose" href="#">Велопрогулки</a>
+                </div>
+            </div>
             <div class="choose__cards">
                 <div class="card card_hover card_choose_img1">
                     <div class="linear-gradient">
@@ -156,15 +160,13 @@
             </div>
             <div class="main__create">
                 <div class="create__header">
-                    <h2 class="h2_create">Собери свой тур</h2>
+                    <h2>Собери свой тур</h2>
                     <p class="cr__p">Идейные соображения высшего порядка,<br> а также рамки и место обучения кадров</p>
                 </div>
                 <div class="create__form">
                     <form class="form" action="#" method="post">
-
                         <div class="form__input">
                             <div class="form__inline">
-
                                 <div class="form__in">
                                     <label for="POST-name">Имя</label>
                                     <input class="forms" id="POST-name" type="text" name="Имя"
@@ -211,7 +213,7 @@
                                         placeholder="ДД.ММ.ГГГГ" />
                                 </div>
                             </div>
-                            <!-- Уточнить как именно подключить картинку, или испольщовать стандартную выпадашку select <svg width="13" height="13" viewBox="0 0 26 26" fill="none"
+                            <!-- Уточнить как именно подключить картинку, или использовать стандартную выпадашку select <svg width="13" height="13" viewBox="0 0 26 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M13 19.4141L4.29289 10.707C3.90236 10.3164 3.90237 9.68326 4.29289 9.29274C4.68341 8.90221 5.31658 8.90221 5.7071 9.29274L13 16.5856L20.2929 9.29274C20.6834 8.90221 21.3166 8.90221 21.7071 9.29274C22.0976 9.68326 22.0976 10.3164 21.7071 10.707L13 19.4141Z"
@@ -219,27 +221,30 @@
                                 </svg>
                                 -->
                         </div>
-
-                        <label for="POST-comment">Комментарий</label>
-                        <textarea class="forms_comment" id="POST-comment" type="text" name="comment">
+                        <div class="form_com">
+                            <label for="POST-comment">Комментарий</label>
+                            <textarea class="forms_comment" id="POST-comment" type="text" name="comment">
                         </textarea>
+                        </div>
+                        <div class="form_age">
+                            <label for="age">Вам есть 18 лет?</label>
 
-                        <label for="age">Вам есть 18 лет?</label>
-
-                        <div class="create__rbtn">
-
-                            <input type="radio" id="Yes" name="age" />
-                            <label for="Yes">Да</label>
-
-                            <input type="radio" id="No" name="age" />
-                            <label for="No">Нет</label>
-
+                            <div class="create__rbtn">
+                                <div class="in_rad">
+                                    <input class="radio" type="radio" id="Yes" name="age" />
+                                    <label for="Yes">Да</label>
+                                </div>
+                                <div class="in_rad">
+                                    <input class="radio" type="radio" id="No" name="age" />
+                                    <label for="No">Нет</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="check__btn">
                             <label class="checkbox">
-                                <input type="checkbox"> Нажимая кнопку, я принимаю условия <span
-                                    class="dog">Лицензионного
-                                    договора</b>
+                                <input class="radio" type="checkbox">
+                                <p class="ch_p"> Нажимая кнопку, я принимаю условия</p><a class="dog" href="#">Лицензионного
+                                        договора</a>
                             </label>
                         </div>
 
@@ -253,7 +258,7 @@
             </div>
             <div class="main__reviews">
                 <div class="reviews__h2">
-                    <h2 class="h2_rev">Отзывы наших<br>путешественников</h2>
+                    <h2>Отзывы наших<br>путешественников</h2>
                     <p class="reviews_p">Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
                     </p>
                 </div>
@@ -297,7 +302,7 @@
             </div>
             <div class="main__photos">
                 <div class="photos__h2">
-                    <h2 class="h2_photo">Фотографии путешествий</h2>
+                    <h2>Фотографии путешествий</h2>
                     <p class="p_photo">Идейные соображения высшего порядка,<br>
                         а также рамки и место обучения кадров</p>
                 </div>
@@ -327,7 +332,7 @@
             </div>
             <div class="main__history">
                 <div class="history__h2">
-                    <h2 class="h2_history">Истории путешествий</h2>
+                    <h2>Истории путешествий</h2>
                     <p class="p_history">Идейные соображения высшего порядка,<br>
                         а также рамки и место обучения кадров</p>
                 </div>
