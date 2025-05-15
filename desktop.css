@@ -1,5 +1,3 @@
-
-
 /*Медиа запросы блока header*/
 
 @media (max-width: 1200px) {
@@ -48,8 +46,7 @@
 
     .create__form {
 
-        max-width: 918px;
-        max-height: 966px;
+        width: 918px;
         padding: 60px;
     }
 
@@ -63,27 +60,39 @@
 
     .form_in {
 
-    width: 389px;
-    height: 104px;
-    
+        width: 389px;
+        height: 104px;
+
     }
 
-.form__inline {
+    .form__inline {
 
-    margin-bottom: 33px;
-    width: 798px;
-    height: 104px;
-    margin-right: 0px;
-    gap: 20px;
-}
+        
+        width: 798px;
+        height: 104px;
+        margin-right: 0px;
+        gap: 20px;
+    }
 
     .forms_comment {
 
-        max-width: 808px;
-        max-height: 152px;
+        width: 798px;
+        height: 152px;
         margin-right: 0px;
         padding-right: 0px;
     }
+
+    .form__input {
+
+       gap: 33px;
+    }
+
+    .form_com {
+
+        padding-top: 0px;
+    }
+
+
 }
 
 /*Медиа запросы блока reviews(Отзывы)*/
@@ -106,11 +115,6 @@
 /*Медиа запросы блока photo (Фото путешественников)*/
 
 @media (max-width: 1240px) {
-
-    .photos__h2 {
-
-        padding-top: 135px;
-    }
 
     .photos__traveler {
         gap: 30px;
@@ -172,3 +176,11 @@
 
 }
 
+/*Блок footer*/
+
+@media (max-width: 1240px) {
+
+    .foot_t {
+        gap: 288px;
+    }
+}

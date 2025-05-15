@@ -1,5 +1,6 @@
 /*Медиа запросы блока header*/
 
+
 @media (max-width: 930px) {
 
     .menu__bar {
@@ -86,11 +87,6 @@
 
 @media (max-width: 960px) {
 
-    .main__content {
-
-        gap: 75px;
-    }
-
     .form__input {
         display: flex;
         flex-direction: column;
@@ -102,18 +98,12 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        max-width: 318px;
-        max-height: max-content;
+        width: 318px;
         border-radius: 30px;
-
-
+        padding: 20px 20px 40px 20px;
     }
 
-    .form {
-
-        margin: 20px 20px 40px 20px;
-
-    }
+    .form {}
 
     .forms {
 
@@ -131,12 +121,6 @@
         max-width: 300px;
     }
 
-    h2 {
-
-        font-size: 34px;
-        font-weight: 700;
-
-    }
 
     .header {
 
@@ -173,6 +157,12 @@
 
     }
 
+    .ch_p {
+        padding: 0px;
+        padding-left: 10px;
+        text-align: left;
+    }
+
     .create__header {
 
         padding-bottom: 40px;
@@ -200,7 +190,6 @@
 
         max-width: 278px;
         max-height: 132px;
-        margin-bottom: 30px;
         padding: 0px;
 
     }
@@ -209,9 +198,9 @@
 
         display: flex;
         flex-direction: column;
+        max-width: 278px;
+        height: auto;
         gap: 30px;
-        padding-bottom: 30px;
-
     }
 
 }
@@ -224,7 +213,7 @@
 
         font-weight: 700;
         font-size: 34px;
-        line-height: 38.08px;
+        line-height: 112%;
         padding-top: 75px;
         padding-bottom: 25px;
 
@@ -285,18 +274,18 @@
     .form__in {
 
         gap: 8px;
-
+        max-width: fit-content;
     }
 
-    .create__rbtn {
-
-        padding-bottom: 30px;
-    }
+    .create__rbtn {}
 
     .checkbox {
-
+        align-items: flex-start;
         font-size: 16px;
-        padding-bottom: 30px;
+    }
+
+    .main__choose {
+        padding-bottom: 50px;
     }
 
 }
@@ -651,5 +640,33 @@
         line-height: 142%;
     }
 
+    .check__btn {
+
+        max-width: 278px;
+
+    }
+
+    .radio {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/*Блок footer*/
+
+@media (max-width: 960px) {
+
+
+    .foot_t {
+        gap: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_text {
+        height: 98px;
+    }
 
 }
