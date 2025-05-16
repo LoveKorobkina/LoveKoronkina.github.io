@@ -31,7 +31,7 @@
 
 }
 
-@media (max-width: 520px) {
+@media (max-width: 960px) {
 
     .choose__menu {
 
@@ -39,7 +39,8 @@
         font-size: 16px;
         font-weight: 700;
         justify-content: center;
-
+        max-width: 282px;
+        gap: 10px;
     }
 
 }
@@ -77,10 +78,7 @@
 
     }
 
-    .form__input {
-
-        gap: 0px;
-    }
+    .form__input {}
 
 
 }
@@ -103,7 +101,13 @@
         padding: 20px 20px 40px 20px;
     }
 
-    .form {}
+
+    .drop_img {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
 
     .forms {
 
@@ -215,7 +219,7 @@
         font-size: 34px;
         line-height: 112%;
         padding-top: 75px;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
 
     }
 
@@ -309,10 +313,17 @@
         padding-bottom: 20px;
     }
 
+    .reviews__h2 {
+
+        padding-bottom: 50px;
+    }
+
     .reviews_p {
 
         font-size: 16px;
         font-weight: 400;
+        line-height: 142%;
+
     }
 
     .reviews__cards {
@@ -404,12 +415,7 @@
         align-items: center;
     }
 
-    .photos__h2 {
-        padding: 0px;
-        max-width: 318px;
-        gap: 20px;
-
-    }
+    .photos__h2 {}
 
     .hide2 {
 
@@ -474,12 +480,21 @@
 
 /*Блок history (Истории путешествий)*/
 
+@media (max-width: 960px) {
+
+    .history__h2 {
+        padding-bottom: 50px;
+    }
+}
+
+
 /*Блок conclusion (заключение)*/
 
 @media (max-width: 960px) {
 
     .main__conclusion {
         padding-bottom: 75px;
+        padding-top: 75px;
     }
 
     .conclusion_elements {
@@ -557,6 +572,7 @@
     .his_cards {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .card_his {
@@ -586,7 +602,7 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 142%;
-        max-width: 263px;
+        max-width: 319px;
     }
 
     .his_h3 {

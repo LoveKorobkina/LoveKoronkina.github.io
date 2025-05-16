@@ -5,6 +5,11 @@
 body {
     font-family: "Roboto";
     margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -23,6 +28,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    scroll-behavior: smooth;
 
 }
 
@@ -186,7 +192,7 @@ h2 {
 
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 101px;
     align-items: center;
 
 }
@@ -198,6 +204,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     background-color: #F9F7F4;
+
 }
 
 .choose:hover {
@@ -381,7 +388,7 @@ h3 {
     font-size: 20px;
     padding: 70px;
     width: 1170px;
-    
+
 }
 
 .forms {
@@ -416,7 +423,7 @@ h3 {
 .form__inline {
 
     display: inline-flex;
-    gap: 33px;
+    gap: 30px;
 
 }
 
@@ -445,8 +452,10 @@ h3 {
     margin-top: 8px;
     margin-right: 30px;
     text-align: start;
-   
+
 }
+
+
 
 .form__in {
 
@@ -455,13 +464,24 @@ h3 {
     gap: 8px;
 }
 
-.form_com {
-    padding-top: 33px;
+select {
+    appearance: none;
 }
+
+.dropdown__list {
+    position: relative;
+}
+
+.drop_img {
+    position: absolute;
+    top: 21px;
+    right: 21px;
+}
+
+.form_com {}
 
 .create__rbtn {
 
-    padding-top: 8px;
     display: flex;
     align-items: center;
     gap: 31px;
@@ -665,7 +685,7 @@ option {
 }
 
 .photos__h2 {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -28,10 +28,10 @@
                     <img class="logo2" src="Icons\YourTour2.png" alt="YourTourlogo2" width="133" height="22">
                 </a>
                 <div class="menu__bar">
-                    <a class="menu" href="#">Туры</a>
-                    <a class="menu" href="#">Создать тур</a>
-                    <a class="menu" href="#">Отзывы</a>
-                    <a class="menu" href="#">Истории</a>
+                    <a class="menu" href="#chooseanchor">Туры</a>
+                    <a class="menu" href="#anchorform">Создать тур</a>
+                    <a class="menu" href="#reviewsanchor">Отзывы</a>
+                    <a class="menu" href="#hisanchor">Истории</a>
                 </div>
                 <a class="menu" href="tel:+7 999 999 99 99">+7 999 999 99 99</a>
             </div>
@@ -39,13 +39,13 @@
                 <div class="header__text">
                     <h1>Идеальные путешествия существуют</h1>
                     <p class="p_header">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
-                    <button class="header_btn">Найти тур</button>
+                    <a href="#anchorform"><button class="header_btn">Найти тур</button></a>
                 </div>
             </div>
         </div>
         <div class="main__content">
             <div class="main__choose">
-                <h2>Выбери свой тур</h2>
+                <h2 id="chooseanchor">Выбери свой тур</h2>
                 <div class="choose__menu">
                     <a class="choose choose_orange" href="#">Популярные</a>
                     <a class="choose" href="#">Авторские</a>
@@ -160,7 +160,7 @@
             </div>
             <div class="main__create">
                 <div class="create__header">
-                    <h2>Собери свой тур</h2>
+                    <h2 id="anchorform">Собери свой тур</h2>
                     <p class="cr__p">Идейные соображения высшего порядка,<br> а также рамки и место обучения кадров</p>
                 </div>
                 <div class="create__form">
@@ -175,14 +175,18 @@
 
                                 <div class="form__in">
                                     <label for="POST-search">Направление</label>
-                                    <!-- <input class="forms" id="POST-search" type="search" name="Поиск"
-                                    placeholder="Куда хотите поехать"> -->
                                     <div class="dropdown__list">
+                                        <svg class="drop_img" width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 19.4141L4.29289 10.707C3.90236 10.3164 3.90237 9.68326 4.29289 9.29274C4.68341 8.90221 5.31658 8.90221 5.7071 9.29274L13 16.5856L20.2929 9.29274C20.6834 8.90221 21.3166 8.90221 21.7071 9.29274C22.0976 9.68326 22.0976 10.3164 21.7071 10.707L13 19.4141Z"
+                                                fill="#1B1F2B" />
+                                        </svg>
                                         <select class="forms" name="select">
-                                            <option value="#">Куда хотите ехать?</option>
-                                            <option value="#"></option>
-                                            <option value="#"></option>
-                                            <option value="#"></option>
+                                            <option value="#">Куда хотите ехать</option>
+                                            <option value="#">Путешествие в горы</option>
+                                            <option value="#">Путешествие в горы</option>
+                                            <option value="#">Путешествие в горы</option>
                                         </select>
                                     </div>
                                 </div>
@@ -203,13 +207,13 @@
 
                             <div class="form__inline">
                                 <div class="form__in">
-                                    <label for="POST-date">Дата от</label>
-                                    <input class="forms" id="POST-date" type="date" name="date"
+                                    <label for="POST-text">Дата от</label>
+                                    <input class="forms" id="POST-text" type="text" name="date"
                                         placeholder="ДД.ММ.ГГГГ" />
                                 </div>
                                 <div class="form__in">
-                                    <label for="POST-date2">Дата до</label>
-                                    <input class="forms" id="POST-date2" type="date" name="date2"
+                                    <label for="POST-text2">Дата до</label>
+                                    <input class="forms" id="POST-text2" type="text" name="date2"
                                         placeholder="ДД.ММ.ГГГГ" />
                                 </div>
                             </div>
@@ -235,8 +239,8 @@
                                 <label class="checkbox">
                                     <input class="radio" type="checkbox">
                                     <p class="ch_p"> Нажимая кнопку, я принимаю условия<a class="dog"
-                                        href="#">Лицензионного
-                                        договора</a></p>
+                                            href="#">Лицензионного
+                                            договора</a></p>
                                 </label>
                             </div>
 
@@ -253,7 +257,7 @@
             </div>
             <div class="main__reviews">
                 <div class="reviews__h2">
-                    <h2>Отзывы наших<br>путешественников</h2>
+                    <h2 id="reviewsanchor">Отзывы наших<br>путешественников</h2>
                     <p class="reviews_p">Идейные соображения высшего порядка,<br>а также рамки и место обучения кадров
                     </p>
                 </div>
@@ -297,7 +301,7 @@
             </div>
             <div class="main__photos">
                 <div class="photos__h2">
-                    <h2>Фотографии путешествий</h2>
+                    <h2 id="anchorphoto">Фотографии путешествий</h2>
                     <p class="p_photo">Идейные соображения высшего порядка,<br>
                         а также рамки и место обучения кадров</p>
                 </div>
@@ -327,7 +331,7 @@
             </div>
             <div class="main__history">
                 <div class="history__h2">
-                    <h2>Истории путешествий</h2>
+                    <h2 id="hisanchor">Истории путешествий</h2>
                     <p class="p_history">Идейные соображения высшего порядка,<br>
                         а также рамки и место обучения кадров</p>
                 </div>
