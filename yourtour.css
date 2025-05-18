@@ -168,6 +168,7 @@ h2 {
     color: #1B1F2B;
     font-weight: 700;
     font-size: 23px;
+    padding-bottom: 4px;
 }
 
 .choose_orange {
@@ -186,6 +187,7 @@ h2 {
     flex-wrap: wrap;
     height: 34px;
     align-items: center;
+    margin-top: 4px;
 }
 
 .main__choose {
