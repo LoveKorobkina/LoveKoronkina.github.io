@@ -1,0 +1,186 @@
+/*Медиа запросы блока header*/
+
+@media (max-width: 1200px) {
+
+    .menu__list {
+
+        gap: 82px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .menu__bar {
+        gap: 30px;
+    }
+
+    p {
+
+        max-width: 442px;
+    }
+
+
+
+
+}
+
+/*Медиа запросы на блок Найти тур*/
+
+@media (max-width: 1240px) {
+
+    .choose__cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 450px;
+    }
+}
+
+
+
+/*Медиа запросы блока create,choose*/
+
+@media (max-width: 1240px) {
+
+    .create__form {
+
+        width: 918px;
+        padding: 60px;
+    }
+
+    .forms {
+
+        width: 389px;
+        height: 68px;
+        margin-right: 0px;
+
+    }
+
+    .form_in {
+
+        width: 389px;
+        height: 104px;
+
+    }
+
+    .form__inline {
+
+        
+        width: 798px;
+        height: 104px;
+        margin-right: 0px;
+        gap: 20px;
+    }
+
+    .forms_comment {
+
+        width: 798px;
+        height: 152px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .form__input {
+
+       gap: 33px;
+    }
+
+    .form_com {
+
+        padding-top: 0px;
+    }
+
+
+}
+
+/*Медиа запросы блока reviews(Отзывы)*/
+
+@media (max-width: 1240px) {
+
+    .card__rev {
+
+        width: 450px;
+        height: 841px;
+    }
+
+    .reviews__cards {
+
+        gap: 18px;
+    }
+
+}
+
+/*Медиа запросы блока photo (Фото путешественников)*/
+
+@media (max-width: 1240px) {
+
+    .photos__traveler {
+        gap: 30px;
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+    .photo_grid4 .img {
+
+        max-width: 314px;
+
+    }
+
+    .photo_grid4 {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .photo_grid5 {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .photo_grid5 .img {
+
+        max-width: 231px;
+
+    }
+
+
+}
+
+/*Блок history (Истории путешествий)*/
+
+@media (max-width: 1240px) {
+
+    .card_his {
+
+        width: 918px;
+        height: 567px;
+        overflow: hidden;
+        background-size: 130% auto;
+    }
+
+    .card_his:hover {
+
+        background-repeat: no-repeat;
+        background-size: 150% auto;
+        background-position: center;
+
+    }
+
+}
+
+/*Блок footer*/
+
+@media (max-width: 1240px) {
+
+    .foot_t {
+        gap: 288px;
+    }
+}

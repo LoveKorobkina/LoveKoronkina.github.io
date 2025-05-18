@@ -1,0 +1,688 @@
+/*Медиа запросы блока header*/
+
+
+@media (max-width: 930px) {
+
+    .menu__bar {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+
+    .card:hover {
+        background-size: cover;
+    }
+
+    .card_his:hover {
+
+        background-size: cover;
+    }
+}
+
+@media (max-width: 780px) {
+
+
+    h2 {
+
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+}
+
+@media (max-width: 960px) {
+
+    .choose__menu {
+
+        padding-bottom: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: center;
+        max-width: 282px;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    .header__text {
+
+        max-width: 310px;
+    }
+
+}
+
+/*Медиа запросы блока create*/
+
+@media (max-width: 520px) {
+
+
+    .form {
+
+        margin: 0px;
+    }
+
+    .forms {
+
+        max-width: 278px;
+        max-height: 43px;
+
+    }
+
+    .form__input {}
+
+
+}
+
+@media (max-width: 960px) {
+
+    .form__input {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .create__form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 318px;
+        border-radius: 30px;
+        padding: 20px 20px 40px 20px;
+    }
+
+
+    .drop_img {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .forms {
+
+        width: 278px;
+        height: 43px;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    h1 {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 112%;
+        max-width: 300px;
+    }
+
+
+    .header {
+
+        height: auto;
+    }
+
+    .p_header {
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 142%;
+        max-width: 300px;
+        max-height: 69px;
+    }
+
+    .header__h1 {
+
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .header__text {
+
+        gap: 40px;
+    }
+
+    .cr__p {
+
+        height: 46px;
+        width: 318px;
+        font-size: 16px;
+        font-weight: 400;
+
+
+    }
+
+    .ch_p {
+        padding: 0px;
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .create__header {
+
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+
+    .create__btns {
+
+        display: inline-flex;
+
+    }
+
+    .create__btn {
+        max-width: 134px;
+        max-height: 47px;
+        margin-right: 10px;
+    }
+
+    .create__inp {
+        width: 134px;
+        height: 47px;
+    }
+
+    .forms_comment {
+
+        max-width: 278px;
+        max-height: 132px;
+        padding: 0px;
+
+    }
+
+    .form__inline {
+
+        display: flex;
+        flex-direction: column;
+        max-width: 278px;
+        height: auto;
+        gap: 30px;
+    }
+
+}
+
+/*медиа запросы на блок choose*/
+
+@media (max-width: 960px) {
+
+    h2 {
+
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 112%;
+        padding-top: 75px;
+        padding-bottom: 20px;
+
+    }
+
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+        max-width: 268px;
+        max-height: 28px;
+        line-height: 120%;
+    }
+
+    .card_price {
+
+        margin-top: 13px;
+    }
+
+    .card_link {
+
+        font-weight: 700;
+        font-size: 16px;
+        margin: 25px 25px 25px 5px;
+        padding-left: 20px;
+    }
+
+    .choose__cards {
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .choose {
+
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22.72px;
+    }
+
+    .card {
+
+        width: 318px;
+        height: 318px;
+
+    }
+
+    .card_text {
+
+        margin: 25px;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .form__in {
+
+        gap: 8px;
+        max-width: fit-content;
+    }
+
+    .create__rbtn {}
+
+    .checkbox {
+        align-items: flex-start;
+        font-size: 16px;
+    }
+
+    .main__choose {
+        padding-bottom: 50px;
+    }
+
+}
+
+/*Медиа запросы блока reviews(Отзывы)*/
+
+@media (max-width: 960px) {
+
+    .main__reviews {
+
+        display: flex;
+        flex-direction: column;
+        max-height: none;
+
+    }
+
+    .h2_rev {
+
+        font-size: 34px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .reviews__h2 {
+
+        padding-bottom: 50px;
+    }
+
+    .reviews_p {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+
+    }
+
+    .reviews__cards {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .card__rev {
+
+        padding: 20px;
+        border-radius: 20px;
+
+    }
+
+    .card__pavel {
+        width: 318px;
+        height: 592px;
+    }
+
+    .card__mary {
+
+        width: 318px;
+        height: 408px;
+    }
+
+    .text__pavel {
+
+        max-width: 278px;
+        max-height: 437px;
+        line-height: 142%;
+
+    }
+
+    .text__mary {
+
+        max-width: 278px;
+        max-height: 253px;
+        line-height: 142%;
+    }
+
+    .text_rev {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        max-width: 278px;
+        max-height: 253px;
+    }
+
+    .name_rev {
+
+        padding-top: 56px;
+
+    }
+
+    .card_nprev {
+
+        width: 203px;
+        height: 59px;
+        gap: 8px;
+
+
+    }
+
+    .name_p {
+
+        font-size: 23px;
+        font-weight: 700;
+
+    }
+
+    .p_rev {
+
+        text-align: start;
+        line-height: 142%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+}
+
+/*Медиа запросы блока photo (Фото путешественников)*/
+
+@media (max-width: 960px) {
+
+    .main__photos {
+        align-items: center;
+    }
+
+    .photos__h2 {}
+
+    .hide2 {
+
+        display: none;
+    }
+
+    .h2_photo {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 112%;
+        padding: 0px;
+    }
+
+    .p_photo {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
+    .photos__traveler {
+        gap: 18px;
+        padding-top: 50px;
+    }
+
+    .photo_grid4 {
+        gap: 18px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+    }
+
+    .photo_grid4 .img_tr {
+
+        max-width: 150px;
+    }
+
+
+    .photo_grid5 {
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: fit-content;
+    }
+
+    .photo_grid5 .img_tr {
+
+        max-width: 99px;
+
+    }
+
+    .img_tr {
+        height: 110px;
+        border-radius: 20px;
+    }
+
+    .ph4 {
+        gap: 10px;
+    }
+}
+
+/*Блок history (Истории путешествий)*/
+
+@media (max-width: 960px) {
+
+    .history__h2 {
+        padding-bottom: 50px;
+    }
+}
+
+
+/*Блок conclusion (заключение)*/
+
+@media (max-width: 960px) {
+
+    .main__conclusion {
+        padding-bottom: 75px;
+        padding-top: 75px;
+    }
+
+    .conclusion_elements {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img_con {
+
+        max-width: 130px;
+        max-height: 133px;
+        border-radius: 20px;
+    }
+
+    .con_text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .con_h3 {
+        width: 291px;
+        height: 56px;
+        text-align: center;
+    }
+
+    .p_con {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        text-align: center;
+    }
+
+}
+
+/*Блок footer(подвал)*/
+
+@media (max-width: 960px) {
+
+    .footer_text {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .p_foot {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
+    .foot_links {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        gap: 15px;
+    }
+
+    .foot_link {
+
+        gap: 5px;
+    }
+}
+
+
+/*Блок history(истории путешественников)*/
+
+@media (max-width: 960px) {
+
+    .his_cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card_his {
+        display: flex;
+        flex-direction: column;
+        width: 318px;
+        height: 455px;
+        background-size: cover;
+
+    }
+
+    .linear-gradient_his {
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h2_history {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 112%;
+    }
+
+    .p_history {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        max-width: 319px;
+    }
+
+    .his_h3 {
+
+        width: 200px;
+        height: 56px;
+        padding-bottom: 50px;
+
+    }
+
+    .cardhis_text {
+
+        width: 263px;
+        height: 230px;
+    }
+
+    .link_socialm {
+
+        display: none;
+
+    }
+
+    .history_text {
+
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    .card_list {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
+    .history_link {
+
+        padding-top: 63px;
+    }
+
+    .linhis {
+
+        width: 123px;
+        height: 26px;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 142%;
+    }
+
+    .check__btn {
+
+        max-width: 278px;
+
+    }
+
+    .radio {
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+/*Блок footer*/
+
+@media (max-width: 960px) {
+
+
+    .foot_t {
+        gap: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_text {
+        height: 98px;
+    }
+
+}
