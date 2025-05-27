@@ -168,7 +168,7 @@ h2 {
     color: #1B1F2B;
     font-weight: 700;
     font-size: 23px;
-    padding-bottom: 4px;
+
 }
 
 .choose_orange {
@@ -177,7 +177,8 @@ h2 {
     border-bottom: 2px solid #EFA501;
     font-size: 23px;
     font-weight: 700;
-
+    padding-bottom: 6px;
+    margin-top: 6px;
 }
 
 .choose__menu {
@@ -210,12 +211,19 @@ h2 {
 }
 
 .choose:hover {
+    border-bottom: 2px solid #1B1F2B;
+    text-decoration: none;
+    padding-bottom: 6px;
+    margin-top: 6px;
 
-    text-decoration: underline;
 }
 
 .choose_orange:hover {
     text-decoration: none;
+    color: #EFA501;
+    border-bottom: 2px solid #EFA501;
+    padding-bottom: 6px;
+    margin-top: 6px;
 }
 
 /* Блок choose__cards */
