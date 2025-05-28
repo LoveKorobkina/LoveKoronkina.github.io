@@ -66,7 +66,7 @@ a {
 }
 
 .menu:hover {
-
+    cursor: pointer;
     text-decoration: underline;
 }
 
@@ -116,6 +116,7 @@ h1 {
 
     background-color: #EFA501;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -215,6 +216,7 @@ h2 {
     text-decoration: none;
     padding-bottom: 6px;
     margin-top: 6px;
+    cursor: pointer;
 
 }
 
@@ -224,6 +226,7 @@ h2 {
     border-bottom: 2px solid #EFA501;
     padding-bottom: 6px;
     margin-top: 6px;
+    cursor: pointer;
 }
 
 /* Блок choose__cards */
@@ -313,7 +316,7 @@ h3 {
 
     background-color: #286562;
     border-radius: 50px;
-
+    cursor: pointer;
 }
 
 .card_icon {
@@ -325,7 +328,7 @@ h3 {
 .card_hover:hover {
     background-position: center;
     background-size: 130% auto;
-
+    cursor: pointer;
 }
 
 /* Подключенные картинки блока Выбери тур */
@@ -366,7 +369,7 @@ h3 {
 
     background-color: #286562;
     border-radius: 50px;
-
+    cursor: pointer;
 }
 
 .card:active .card_link {
@@ -529,6 +532,16 @@ label {
     padding-left: 5px;
 }
 
+.dog:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dog:active {
+    text-decoration: underline;
+    color: #286562;
+}
+
 .ch_p {
 
     padding-left: 19px;
@@ -561,6 +574,15 @@ label {
     margin-right: 30px;
 }
 
+.create__btn:hover {
+    background-color: #3B7E7B;
+}
+
+.create__btn:active {
+    background-color: #627F7E;
+}
+
+
 .create__inp {
 
     width: 235px;
@@ -570,6 +592,14 @@ label {
     color: #286562;
     font-size: 20px;
     border: none;
+}
+
+.create__inp:hover {
+    background-color: #F1F3F2;
+}
+
+.create__inp:active {
+    background-color: #D9DFDB;
 }
 
 .in_check {
@@ -862,6 +892,7 @@ option {
 .card_his:hover {
     background-size: 140% auto;
     background-position: center;
+    cursor: pointer;
 }
 
 /*Подключенные картинки на блок История путешествий(history)*/
@@ -966,6 +997,7 @@ ul {
 
     background-color: #286562;
     border-radius: 50px;
+    cursor: pointer;
 
 }
 
@@ -987,6 +1019,7 @@ ul {
 .link_his:hover {
 
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /*Блок conclusion (заключение) */
@@ -1055,6 +1088,13 @@ ul {
 .con_link:hover {
 
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.con_link:active {
+
+    color: #286562;
+    text-decoration: underline;
 }
 
 /*Блок footer(подвал)*/
@@ -1079,7 +1119,7 @@ ul {
     color: #A6A6A6;
 }
 
-.foot_link {
+.foot_soc {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1088,7 +1128,10 @@ ul {
 
 .foot_link:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
+
+
 
 .foot_links {
     display: inline-flex;
@@ -1098,6 +1141,12 @@ ul {
     font-size: 20px;
     font-weight: 400;
     line-height: 142%;
+}
+
+.foot_soc:active {
+
+    color: #EFA501;
+    text-decoration: underline;
 }
 
 .foot_t {
