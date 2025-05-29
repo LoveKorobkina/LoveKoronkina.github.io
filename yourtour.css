@@ -322,7 +322,7 @@ h3 {
 .card_icon {
 
     margin-left: 15px;
-    margin-top: 4px;
+    margin-top: 3px;
 }
 
 .card_hover:hover {
@@ -409,7 +409,7 @@ h3 {
     width: 500px;
     height: 68px;
     border-radius: 10px;
-    border: 1px #F4F0E9;
+    border: 1px solid #F4F0E9;
     gap: 10px;
     background-color: #F9F7F4;
     padding: 20px;
@@ -418,13 +418,25 @@ h3 {
     font-size: 20px;
     font-weight: 400;
     line-height: 142%;
-    color: #A6A6A6;
+
 }
 
 .forms::placeholder {
 
     color: #A6A6A6;
 }
+
+.forms:focus {
+    border-width: 2px;
+    outline: none;
+    border-color: #A6A6A6;
+
+}
+
+select {
+    color: #A6A6A6;
+}
+
 
 
 .form__flcol {
@@ -458,17 +470,35 @@ h3 {
     width: 1030px;
     height: 152px;
     border-radius: 10px;
-    border: 1px #F4F0E9;
+    border: 1px solid #F4F0E9;
     gap: 10px;
     background-color: #F9F7F4;
     padding: 20px;
     margin-top: 8px;
     margin-right: 30px;
     text-align: start;
+    font-size: 20px;
+    line-height: 142%;
+    font-weight: 400;
 
 }
 
+.forms_comment:hover {
+    background-color: #F4F0E9;
+    border: 1px #F4F0E9;
+}
 
+.forms_comment:focus {
+    border-width: 1px;
+    outline: none;
+    border-color: #A6A6A6;
+
+}
+
+.forms:hover {
+    background-color: #F4F0E9;
+    border: 1px #F4F0E9;
+}
 
 .form__in {
 
@@ -572,6 +602,7 @@ label {
     font-size: 20px;
     border: none;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .create__btn:hover {
@@ -592,6 +623,7 @@ label {
     color: #286562;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .create__inp:hover {
@@ -938,7 +970,7 @@ h3 {
     font-size: 35px;
     font-weight: 500;
     line-height: 122%;
-    padding-bottom: 37px;
+
 }
 
 
