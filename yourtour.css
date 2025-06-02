@@ -372,7 +372,7 @@ h3 {
     cursor: pointer;
 }
 
-.card:active .card_link {
+ .card:active .card_link {
 
     background-color: #EFA501;
 }
@@ -487,6 +487,10 @@ input:valid {
     line-height: 142%;
     font-weight: 400;
 
+}
+
+textarea {
+    resize: none;
 }
 
 .forms_comment:hover {
@@ -1071,17 +1075,12 @@ ul {
 
 }
 
-.card_his:hover .card_link {
+ .card_link:hover {
 
     background-color: #286562;
     border-radius: 50px;
     cursor: pointer;
 
-}
-
-.card_his:active .card_link {
-
-    background-color: #EFA501;
 }
 
 .link_socialm {
@@ -1094,10 +1093,18 @@ ul {
 
 }
 
+ .linhis:active  {
+    background-color: #EFA501;
+}
+
 .link_his:hover {
 
     text-decoration: underline;
     cursor: pointer;
+}
+
+.link_his:active {
+    color: #EFA501;
 }
 
 /*Блок conclusion (заключение) */
