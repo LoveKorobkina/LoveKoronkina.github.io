@@ -170,7 +170,7 @@
                                 <div class="form__in">
                                     <label for="POST-name">Имя</label>
                                     <input class="forms" id="POST-name" type="text" name="Имя"
-                                        placeholder="Введите Ваше имя" />
+                                        placeholder="Введите Ваше имя" required />
                                 </div>
 
                                 <div class="form__in">
@@ -196,25 +196,25 @@
                                 <div class="form__in">
                                     <label for="POST-email">Email</label>
                                     <input class="forms" id="POST-email" type="text" name="email"
-                                        placeholder="example@mail.com" />
+                                        placeholder="example@mail.com" required />
                                 </div>
                                 <div class="form__in">
                                     <label for="POST-telephone">Телефон</label>
                                     <input class="forms" id="POST-telephone" type="tel" pattern="[1-9]*"
-                                        name="telephone" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" />
+                                        name="telephone" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required/>
                                 </div>
                             </div>
 
                             <div class="form__inline">
                                 <div class="form__in">
                                     <label for="POST-text">Дата от</label>
-                                    <input class="forms" id="POST-text" type="text" name="date"
-                                       min="2025-05-01" max="2025-09-01" placeholder="ДД.ММ.ГГГГ" />
+                                    <input class="forms" id="POST-text" type="text" name="date" min="2025-05-01"
+                                        max="2025-09-01" placeholder="ДД.ММ.ГГГГ" required />
                                 </div>
                                 <div class="form__in">
                                     <label for="POST-text2">Дата до</label>
-                                    <input class="forms" id="POST-text2" type="text" name="date2"
-                                      min="2025-05-01" max="2025-09-01"  placeholder="ДД.ММ.ГГГГ" />
+                                    <input class="forms" id="POST-text2" type="text" name="date2" min="2025-05-01"
+                                        max="2025-09-01" placeholder="ДД.ММ.ГГГГ" required />
                                 </div>
                             </div>
                             <div class="form_com">
@@ -226,21 +226,20 @@
 
                                 <div class="create__rbtn">
                                     <div class="in_rad">
-                                        <input class="radio" type="radio" id="Yes" name="age" />
-                                        <label for="Yes">Да</label>
+                                        <input class="radio" type="radio" id="Yes" name="age" required />
+                                        <label for="Yes" class="radio-style">Да</label>   
                                     </div>
                                     <div class="in_rad">
-                                        <input class="radio" type="radio" id="No" name="age" />
-                                        <label for="No">Нет</label>
+                                        <input class="radio" type="radio" id="No" name="age" required />
+                                        <label for="No" class="radio-style">Нет</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="check__btn">
-                                <label class="checkbox">
-                                    <input class="radio" type="checkbox">
-                                    <p class="ch_p"> Нажимая кнопку, я принимаю условия<a class="dog">Лицензионного
-                                            договора</a></p>
-                                </label>
+                                <input class="radio" type="checkbox" required>
+                                <label class="checkbox"></label>
+                                <p class="ch_p"> Нажимая кнопку, я принимаю условия<a class="dog">Лицензионного
+                                        договора</a></p>
                             </div>
 
                             <div class="create__btns">
