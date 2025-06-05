@@ -1,5 +1,13 @@
 /*Медиа запросы блока header*/
 
+@media (min-width: 1240px) {
+    
+    .menu__list {
+        align-self: center;
+        max-width: 1168px;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .menu__list {
@@ -116,6 +124,13 @@
 
 @media (max-width: 1240px) {
 
+    .main__photos {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    
     .photos__traveler {
         gap: 30px;
     }

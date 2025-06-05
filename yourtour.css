@@ -24,7 +24,6 @@ a {
     align-items: center;
     flex-direction: column;
     background-image: url("Photos/header-img.png");
-    height: 831px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -894,75 +893,10 @@ option {
 
     border-radius: 50px;
     width: 100%;
-
+    object-fit: cover;
+    height: 300px;
 }
 
-/*Размеры фото для Фото путешетсвенников*/
-
-.photo1 {
-    max-width: 444px;
-    max-height: 301px;
-}
-
-.photo2 {
-    max-width: 441px;
-    max-height: 301px;
-}
-
-.photo3 {
-    max-width: 441px;
-    max-height: 301px;
-}
-
-.photo4 {
-    max-width: 443px;
-    max-height: 301px;
-}
-
-.photo5 {
-    max-width: 349px;
-    height: 301px;
-}
-
-.photo6 {
-    max-width: 347px;
-    height: 301px;
-}
-
-.photo7 {
-    max-width: 347px;
-    height: 301px;
-}
-
-.photo8 {
-    max-width: 347px;
-    height: 301px;
-}
-
-.photo9 {
-    max-width: 442px;
-    max-height: 300px;
-}
-
-.photo10 {
-    max-width: 442px;
-    max-height: 300px;
-}
-
-.photo11 {
-    max-width: 442px;
-    max-height: 301px;
-}
-
-.photo12 {
-    max-width: 442px;
-    max-height: 300px;
-}
-
-.photo13 {
-    max-width: 348px;
-    height: 301px;
-}
 
 /*Блок history (Истории путешественников)*/
 
