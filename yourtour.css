@@ -37,9 +37,9 @@ a {
 
 }
 
-.menu__list {
+.menu__header {
 
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     padding: 28px 0px;
@@ -76,7 +76,7 @@ a {
     color: white;
     max-width: 768px;
     align-items: center;
-    gap: 50px;
+    gap: 49px;
 
 
 }
@@ -85,22 +85,21 @@ h1 {
     font-size: 96px;
     text-align: center;
     margin: auto;
-    max-height: 315px;
     line-height: 110%;
     font-weight: 700;
-
+    letter-spacing: 2px;
 }
 
 .header_btn {
     width: 118px;
     height: 34px;
     padding: 5px 20px 5px 20px;
-    gap: 10px;
     border-radius: 10px;
     background-color: white;
     color: #1B1F2B;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 142%;
+    font-weight: 400;
     border: none;
 
 }
@@ -157,7 +156,7 @@ h2 {
     font-size: 59px;
     font-weight: 700;
     margin: 0;
-    padding-top: 135px;
+    padding-top: 134px;
     padding-bottom: 30px;
     text-align: center;
     line-height: 124%;
@@ -184,18 +183,17 @@ h2 {
 .choose__menu {
 
     display: flex;
-    gap: 30px;
+    gap: 31px;
     flex-wrap: wrap;
-    height: 34px;
+    height: 35px;
     align-items: center;
-    margin-top: 4px;
 }
 
 .main__choose {
 
     display: flex;
     flex-direction: column;
-    padding-bottom: 101px;
+    padding-bottom: 104px;
     align-items: center;
 
 }
@@ -394,12 +392,12 @@ h3 {
 
 .create__form {
 
-
+    display: flex;
     background-color: #FFFFFF;
     border-radius: 50px;
     font-size: 20px;
     padding: 70px;
-    width: 1170px;
+    max-width: 1170px;
 
 }
 
@@ -411,9 +409,8 @@ h3 {
     border: 1px solid #F4F0E9;
     gap: 10px;
     background-color: #F9F7F4;
-    padding: 20px;
+    padding: 20px 15px 12px 15px;
     text-align: start;
-
     font-size: 20px;
     font-weight: 400;
     line-height: 142%;
@@ -457,18 +454,17 @@ input:valid {
 
 }
 
-.form {
-
-    display: flex;
-    gap: 24px;
-
-}
 
 .form__input {
 
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 39px;
+}
+
+.form_com {
+    display: flex;
+    flex-direction: column;
 }
 
 .forms_comment {
