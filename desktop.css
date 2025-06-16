@@ -18,9 +18,6 @@
         gap: 82px;
     }
 
-    .menu__header {
-        gap: 120px;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -30,18 +27,10 @@
     }
 
     p {
-
         max-width: 442px;
     }
 
 }
-
-@media (max-width: 1080px) {
-    .menu__header {
-        gap: 30px;
-    }
-}
-
 
 /*Медиа запросы на блок Найти тур*/
 
@@ -56,8 +45,6 @@
         width: 450px;
     }
 }
-
-
 
 /*Медиа запросы блока create,choose*/
 

@@ -40,11 +40,12 @@ a {
 .menu__header {
 
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 28px 0px;
-    gap: 182px;
     max-height: 88px;
+    width: 100%;
+    max-width: 1168px;
 }
 
 .logo2 {
@@ -261,18 +262,13 @@ h2 {
     cursor: pointer;
 }
 
-.card_text {
-
-    margin: 50px;
-}
 
 h3 {
 
     font-weight: 500;
     font-size: 35px;
-    line-height: 42.7px;
+    line-height: 122%;
     margin: 0;
-    padding-bottom: 16px;
     max-height: 87px;
 }
 
@@ -283,6 +279,11 @@ h3 {
     border-radius: 50px;
     height: 100%;
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+
+}
+
+.card_text {
+    padding: 50px 50px 0px 50px;
 }
 
 .card_price {
@@ -295,17 +296,18 @@ h3 {
     margin-top: 16px;
 }
 
+.card_l {
+    padding: 0px 50px 42px 30px;
+}
+
 .card_link {
     font-size: 23px;
     font-weight: 700;
-    margin: 50px;
     line-height: 122%;
     width: 199px;
-    vertical-align: middle;
     display: flex;
     align-items: center;
     padding: 7px 20px;
-    margin: 50px 0px 40px 30px;
 
 }
 
@@ -986,12 +988,6 @@ option {
     align-items: self-start;
 }
 
-h3 {
-
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 122%;
-}
 
 
 .history_text {

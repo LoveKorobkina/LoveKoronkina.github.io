@@ -1,57 +1,5 @@
 /*Медиа запросы блока header*/
 
-
-@media (max-width: 820px) {
-
-    .menu__bar {
-        display: none;
-    }
-
-    .menu__list {
-        gap: 63px;
-    }
-}
-
-@media (max-width: 360px) {
-
-    .card:hover {
-        background-size: cover;
-    }
-
-    .card_his:hover {
-
-        background-size: cover;
-    }
-
-    h2 {
-
-        font-size: 34px;
-        line-height: 38px;
-    }
-
-    h1 {
-
-        font-size: 34px;
-        font-weight: 700;
-        line-height: 38px;
-    }
-
-    .header__text {
-
-        max-width: 310px;
-    }
-
-    .choose__menu {
-
-        padding-bottom: 50px;
-        font-size: 16px;
-        font-weight: 700;
-        justify-content: center;
-        max-width: 282px;
-        gap: 10px;
-    }
-}
-
 @media (max-width: 940px) {
     .menu__list {
         gap: 40px;
@@ -65,92 +13,26 @@
     }
 }
 
+@media (max-width: 820px) {
 
-/*Медиа запросы блока create*/
-
-@media (max-width: 520px) {
-
-
-    .form {
-
-        margin: 0px;
+    .menu__bar {
+        display: none;
     }
 
-    .forms {
-
-        max-width: 278px;
-        max-height: 43px;
-
+    .menu__list {
+        gap: 63px;
     }
-
 }
 
-@media (max-width: 360px) {
-
-    .form__input {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .create__form {
-
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        width: 318px;
-        border-radius: 30px;
-        padding: 20px 20px 40px 20px;
-    }
-
-
-    .drop_img {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-
-
-    .forms {
-
-        width: 278px;
-        height: 43px;
-        margin: 0px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 142%;
-    }
-
-    option {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 142%;
-    }
+@media (max-width: 650px) {
 
     h1 {
-
         font-size: 34px;
         font-weight: 700;
         line-height: 112%;
-        max-width: 300px;
-    }
-
-
-    .header {
-
-        height: auto;
-    }
-
-    .p_header {
-
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 142%;
-        max-width: 300px;
-        max-height: 69px;
-        color: white;
-
+        letter-spacing: 2%;
+        text-align: center;
+        max-width: 320px;
     }
 
     .header__h1 {
@@ -159,91 +41,44 @@
         padding-bottom: 52px;
     }
 
+    .p_header {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        max-width: 310px;
+        color: white;
+
+    }
+
     .header__text {
 
         gap: 40px;
     }
-
-    .cr__p {
-
-        height: 46px;
-        width: 318px;
-        font-size: 16px;
-        font-weight: 400;
-
-
-    }
-
-
-
-    .create__header {
-
-        padding-bottom: 40px;
-        gap: 20px;
-    }
-
-    .create__btns {
-
-        display: inline-flex;
-
-    }
-
-    .create__btn {
-        max-width: 134px;
-        max-height: 47px;
-        margin-right: 10px;
-    }
-
-    .create__inp {
-        width: 134px;
-        height: 47px;
-    }
-
-    .forms_comment {
-
-        max-width: 278px;
-        max-height: 132px;
-        padding: 0px;
-
-    }
-
-    .form__inline {
-
-        display: flex;
-        flex-direction: column;
-        max-width: 278px;
-        height: auto;
-        gap: 30px;
-    }
-
-    .rad_lab {
-        width: 20px;
-        height: 20px;
-        margin: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .rad_lab:checked+.radio::before {
-        content: " ";
-        display: block;
-        width: 7px;
-        height: 7px;
-    }
-
-    .radio_ch {
-        width: 20px;
-        height: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
-
-
 }
 
+/*Медиа запросы блока choose Выбери свой тур*/
+
+@media (max-width: 650px) {
+
+    .main__choose {
+        padding-bottom: 50px;
+    }
+
+    h2 {
+
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 112%;
+        padding-top: 75px;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+
+    }
+}
+
+
+/*Медиа запросы блока create*/
 
 @media (max-width: 980px) {
 
@@ -262,93 +97,18 @@
     }
 }
 
-/*медиа запросы на блок choose*/
+@media (max-width: 520px) {
 
-@media (max-width: 360px) {
+    .form {
 
-    h2 {
-
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 112%;
-        padding-top: 75px;
-        padding-bottom: 20px;
-
+        margin: 0px;
     }
 
-    h3 {
-        font-size: 23px;
-        font-weight: 700;
-        max-width: 268px;
-        max-height: 28px;
-        line-height: 120%;
-    }
+    .forms {
 
-    .card_price {
+        max-width: 278px;
+        max-height: 43px;
 
-        margin-top: 13px;
-    }
-
-    .card_link {
-
-        font-weight: 700;
-        font-size: 16px;
-        margin: 25px 25px 25px 5px;
-        padding-left: 20px;
-    }
-
-    .choose__cards {
-
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 0px;
-    }
-
-    .choose {
-
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 22.72px;
-    }
-
-    .choose__menu {
-        gap: 10px;
-    }
-
-    .card {
-
-        width: 318px;
-        height: 318px;
-
-    }
-
-    .card_text {
-
-        margin: 25px;
-    }
-
-    label {
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .form__in {
-
-        gap: 8px;
-        max-width: fit-content;
-    }
-
-
-    .checkbox {
-
-        width: 20px;
-        height: 20px;
-        padding: 7px;
-
-    }
-
-    .main__choose {
-        padding-bottom: 50px;
     }
 
 }

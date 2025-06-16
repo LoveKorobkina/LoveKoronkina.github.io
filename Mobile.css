@@ -1,12 +1,52 @@
 /*Медиа запросы блока header*/
 
+@media (max-width: 360px) {
+
+    h1 {
+
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 112%;
+        max-width: 300px;
+    }
+
+
+    .header {
+
+        height: auto;
+    }
+
+    .card:hover {
+        background-size: cover;
+    }
+
+    .card_his:hover {
+
+        background-size: cover;
+    }
+
+   
+    .choose__menu {
+
+        padding-bottom: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: center;
+        max-width: 282px;
+        gap: 10px;
+    }
+}
+
+
 @media (max-width: 450px) {
 
-    .menu__list {
+    .menu__header {
         position: fixed;
         top: 0px;
         background-color: rgba(243, 239, 232, 0.6);
         width: 100%;
+        max-height: 23px;
+
     }
 
     .logo {
@@ -46,7 +86,6 @@
 
     }
 
-
 }
 
 @media (max-width: 500px) {
@@ -62,6 +101,208 @@
 }
 
 /*Блок reviews(отзывы)*/
+
+/*Блок Собери свой тур*/
+
+@media (max-width: 360px) {
+
+    .form__input {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .create__form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 318px;
+        border-radius: 30px;
+        padding: 20px 20px 40px 20px;
+    }
+
+
+    .drop_img {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+
+    .forms {
+
+        width: 278px;
+        height: 43px;
+        margin: 0px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
+    option {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
+
+
+    .cr__p {
+
+        height: 46px;
+        width: 318px;
+        font-size: 16px;
+        font-weight: 400;
+
+
+    }
+
+    .create__header {
+
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+
+    .create__btns {
+
+        display: inline-flex;
+
+    }
+
+    .create__btn {
+        max-width: 134px;
+        max-height: 47px;
+        margin-right: 10px;
+    }
+
+    .create__inp {
+        width: 134px;
+        height: 47px;
+    }
+
+    .forms_comment {
+
+        max-width: 278px;
+        max-height: 132px;
+        padding: 0px;
+
+    }
+
+    .form__inline {
+
+        display: flex;
+        flex-direction: column;
+        max-width: 278px;
+        height: auto;
+        gap: 30px;
+    }
+
+    .rad_lab {
+        width: 20px;
+        height: 20px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rad_lab:checked+.radio::before {
+        content: " ";
+        display: block;
+        width: 7px;
+        height: 7px;
+    }
+
+    .radio_ch {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+
+}
+
+/*медиа запросы на блок choose*/
+
+@media (max-width: 360px) {
+
+
+    h3 {
+        font-size: 23px;
+        font-weight: 700;
+        max-width: 268px;
+        max-height: 28px;
+        line-height: 120%;
+    }
+
+    .card_price {
+
+        margin-top: 13px;
+    }
+
+    .card_link {
+
+        font-weight: 700;
+        font-size: 16px;
+        margin: 25px 25px 25px 5px;
+        padding-left: 20px;
+    }
+
+    .choose__cards {
+
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .choose {
+
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 22.72px;
+    }
+
+    .choose__menu {
+        gap: 10px;
+    }
+
+    .card {
+
+        width: 318px;
+        height: 318px;
+
+    }
+
+    .card_text {
+
+        margin: 25px;
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .form__in {
+
+        gap: 8px;
+        max-width: fit-content;
+    }
+
+
+    .checkbox {
+
+        width: 20px;
+        height: 20px;
+        padding: 7px;
+
+    }
+
+}
 
 /*Медиа запросы блока photo (Фото путешественников)*/
 
