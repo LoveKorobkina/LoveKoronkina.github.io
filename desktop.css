@@ -7,9 +7,14 @@
         max-width: 1168px;
     }
 
-
 }
 
+@media (max-width: 1240px) {
+
+    .menu__header {
+        max-width: 910px;
+    }
+}
 
 @media (max-width: 1200px) {
 
@@ -42,7 +47,7 @@
     }
 
     .card {
-        width: 450px;
+        max-width: 450px;
     }
 }
 

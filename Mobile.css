@@ -16,25 +16,17 @@
         height: auto;
     }
 
-    .card:hover {
+
+    /* .card:hover {
         background-size: cover;
     }
 
     .card_his:hover {
 
         background-size: cover;
-    }
+    }*/
 
-   
-    .choose__menu {
 
-        padding-bottom: 50px;
-        font-size: 16px;
-        font-weight: 700;
-        justify-content: center;
-        max-width: 282px;
-        gap: 10px;
-    }
 }
 
 

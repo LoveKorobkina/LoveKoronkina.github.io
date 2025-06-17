@@ -157,7 +157,7 @@ h2 {
     font-size: 59px;
     font-weight: 700;
     margin: 0;
-    padding-top: 134px;
+    padding-top: 135px;
     padding-bottom: 30px;
     text-align: center;
     line-height: 124%;
@@ -242,7 +242,7 @@ h2 {
 
 .card {
 
-    width: 370px;
+    max-width: 370px;
     height: 531px;
     border-radius: 50px;
     color: white;
@@ -321,7 +321,7 @@ h3 {
 .card_icon {
 
     margin-left: 15px;
-    margin-top: 3px;
+    margin-top: -2px;
 }
 
 .card_hover:hover {
@@ -398,6 +398,8 @@ h3 {
     background-color: #FFFFFF;
     border-radius: 50px;
     font-size: 20px;
+    font-weight: 400;
+    line-height: 142%;
     padding: 70px;
     max-width: 1170px;
 
@@ -409,10 +411,8 @@ h3 {
     height: 68px;
     border-radius: 10px;
     border: 1px solid #F4F0E9;
-    gap: 10px;
     background-color: #F9F7F4;
     padding: 20px 15px 12px 15px;
-    text-align: start;
     font-size: 20px;
     font-weight: 400;
     line-height: 142%;
@@ -461,7 +461,8 @@ input:valid {
 
     display: flex;
     flex-direction: column;
-    gap: 39px;
+    gap: 33px;
+    max-width: 1030px;
 }
 
 .form_com {
@@ -541,7 +542,7 @@ select {
     gap: 8px;
     display: flex;
     flex-direction: column;
-
+    margin-top: -1px;
 }
 
 .age {
@@ -627,7 +628,7 @@ select {
 
     display: inline-flex;
     align-items: center;
-
+    margin-top: -2px;
 }
 
 .cr__p {
