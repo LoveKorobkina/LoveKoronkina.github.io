@@ -127,6 +127,19 @@
     }
 }
 
+@media (max-width: 600px) {
+
+    .create__form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 318px;
+        border-radius: 30px;
+        padding: 20px 20px 40px 20px;
+    }
+}
+
 @media (max-width: 520px) {
 
     .form {

@@ -621,6 +621,7 @@ select {
     font-weight: 400;
     color: #A6A6A6;
     line-height: 142%;
+    letter-spacing: -0.01em;
 
 }
 
@@ -638,6 +639,11 @@ select {
 }
 
 .create__btn {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.create__btn {
 
     display: inline-block;
     width: 235px;
@@ -647,9 +653,10 @@ select {
     color: #FFFFFF;
     font-size: 20px;
     border: none;
-    margin-right: 30px;
     cursor: pointer;
 }
+
+
 
 .create__btn:hover {
     background-color: #3B7E7B;
@@ -799,7 +806,7 @@ option {
 
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
 
 }
 
@@ -828,7 +835,7 @@ option {
     font-size: 17px;
     font-weight: 400;
     color: #A6A6A6;
-    height: 24px;
+    letter-spacing: -0.01em;
 }
 
 .icon_rev {
@@ -915,6 +922,10 @@ option {
 
 }
 
+.h2_hisanchor {
+    padding-top: 137px;
+}
+
 .p_history {
 
     font-size: 20px;
@@ -922,6 +933,10 @@ option {
     line-height: 142%;
     color: #A6A6A6;
 
+}
+
+.his_h3 {
+    padding-bottom: 39px;
 }
 
 .his_cards {
@@ -1019,7 +1034,7 @@ ul {
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    margin-bottom: -5px;
+    margin-bottom: -9px;
 
 }
 
