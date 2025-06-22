@@ -14,6 +14,14 @@
     .menu__header {
         max-width: 910px;
     }
+
+    .menu__bar {
+        gap: 30px;
+    }
+
+    .p_header {
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -44,26 +52,27 @@
     .choose__cards {
         display: flex;
         justify-content: center;
+        gap: 18px;
     }
 
     .card {
         max-width: 450px;
+        width: 100%;
     }
 }
 
 /*Медиа запросы блока create,choose*/
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) {}
+
+
+@media (max-width: 1240px) {
+
     .create__form {
 
         max-width: 918px;
         padding: 60px;
     }
-}
-
-
-@media (max-width: 1240px) {
-
 
     .forms {
 
@@ -107,6 +116,10 @@
         padding-top: 0px;
     }
 
+    .ch_p {
+        padding-left: 10px;
+        margin-top: 3px;
+    }
 
 }
 
@@ -148,10 +161,9 @@
         margin-left: 20px;
     }
 
-
-
     .photos__traveler {
         gap: 30px;
+        max-width: 990px;
     }
 
     .hide {

@@ -16,16 +16,6 @@
         height: auto;
     }
 
-
-    /* .card:hover {
-        background-size: cover;
-    }
-
-    .card_his:hover {
-
-        background-size: cover;
-    }*/
-
 }
 
 @media (max-width: 450px) {
@@ -78,21 +68,9 @@
 
 }
 
-@media (max-width: 500px) {
-
-    .choose__menu {
-
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 142%;
-        max-width: 282px;
-        justify-content: center;
-    }
-}
-
 /*Блок reviews(отзывы)*/
 
-/*Блок Собери свой тур*/
+/*Блок Create, Собери свой тур*/
 
 @media (max-width: 360px) {
 
@@ -272,14 +250,18 @@
     }
 
 
-    .checkbox {
+}
 
-        width: 20px;
-        height: 20px;
-        padding: 7px;
+@media (max-width: 500px) {
 
+    .choose__menu {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+        max-width: 282px;
+        justify-content: center;
     }
-
 }
 
 /*Медиа запросы блока photo (Фото путешественников)*/

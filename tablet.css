@@ -127,6 +127,70 @@
     }
 }
 
+@media (max-width: 940px) {
+
+    .create__form {
+
+        padding: 20px 20px 20px 20px;
+    }
+
+    .form__input {
+        max-width: 450px;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .form__inline {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 450px;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .forms_comment {
+        max-width: 389px;
+        max-height: 132px;
+        height: 100%;
+    }
+
+    .form_age {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .check__btn {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .checkbox {
+
+        width: 20px;
+        height: 20px;
+        padding: 7px;
+    }
+
+    .ch_p {
+        margin: 0px;
+    }
+
+    .create__btns {
+        gap: 10px;
+    }
+
+    .create__btn {
+        width: 190px;
+        height: 50px;
+    }
+
+    .create__inp {
+        width: 190px;
+        height: 50px;
+    }
+}
+
 @media (max-width: 600px) {
 
     .create__form {
@@ -134,7 +198,8 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-        width: 318px;
+        max-width: 318px;
+        width: 100%;
         border-radius: 30px;
         padding: 20px 20px 40px 20px;
     }
