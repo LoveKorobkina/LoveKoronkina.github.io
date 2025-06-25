@@ -186,7 +186,7 @@ h2 {
     display: flex;
     gap: 31px;
     flex-wrap: wrap;
-    height: 35px;
+    max-height: 35px;
     align-items: center;
 }
 
@@ -270,7 +270,7 @@ h3 {
     font-size: 35px;
     line-height: 122%;
     margin: 0;
-    max-height: 87px;
+    /* max-height: 87px;*/
 }
 
 .linear-gradient {

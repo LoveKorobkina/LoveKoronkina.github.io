@@ -1,19 +1,31 @@
 /*Медиа запросы блока header*/
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
 
     h1 {
 
         font-size: 34px;
         font-weight: 700;
         line-height: 112%;
-        max-width: 300px;
+        letter-spacing: 0.02em;
     }
 
 
     .header {
 
         height: auto;
+    }
+
+    .header__text {
+
+        gap: 39px;
+    }
+
+    .header_btn {
+        max-width: 118px;
+        width: 100%;
+        padding: 8px 21px 5px 20px;
+        letter-spacing: -0.01em;
     }
 
 }
@@ -39,7 +51,9 @@
 
     .header__h1 {
 
-        padding-top: 140px;
+        padding-top: 124px;
+        padding-bottom: 52px;
+
     }
 
     .menu {
@@ -72,7 +86,7 @@
 
 /*Блок Create, Собери свой тур*/
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
 
     .form__input {
         display: flex;
@@ -84,6 +98,10 @@
         position: absolute;
         top: 10px;
         right: 10px;
+    }
+
+    .h2_anchorform {
+        padding-bottom: 22px;
     }
 
     .forms {
@@ -106,18 +124,17 @@
 
     .cr__p {
 
-        height: 46px;
-        width: 318px;
+        line-height: 142%;
         font-size: 16px;
         font-weight: 400;
-
+        max-width: 318px;
 
     }
 
     .create__header {
 
         padding-bottom: 40px;
-        gap: 20px;
+
     }
 
     .create__btns {
@@ -184,28 +201,43 @@
 
 /*медиа запросы на блок choose*/
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
 
+    .main__choose {
+        padding-bottom: 75px;
+    }
+
+    h2 {
+
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 112%;
+        padding-top: 75px;
+        padding-bottom: 25px;
+        letter-spacing: 0.02em;
+
+    }
 
     h3 {
         font-size: 23px;
         font-weight: 700;
-        max-width: 268px;
-        max-height: 28px;
         line-height: 120%;
+        letter-spacing: 0.04em;
     }
 
     .card_price {
 
-        margin-top: 13px;
+        margin-top: 12px;
+        font-size: 16px;
+        letter-spacing: -0.01em;
     }
 
     .card_link {
 
         font-weight: 700;
         font-size: 16px;
-        margin: 25px 25px 25px 5px;
-        padding-left: 20px;
+        line-height: 142%;
+        padding: 0px;
     }
 
     .choose__cards {
@@ -218,24 +250,59 @@
     .choose {
 
         font-weight: 700;
-        font-size: 17px;
-        line-height: 22.72px;
+        font-size: 16px;
+        line-height: 142%;
+    }
+
+    .choose_orange {
+        margin-top: 3px;
+        padding-bottom: 0px;
     }
 
     .choose__menu {
-        gap: 10px;
+
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 142%;
+        max-width: 282px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 11px;
+        padding-bottom: 0px;
+        height: auto;
+        margin-top: 2px;
     }
 
     .card {
 
-        width: 318px;
-        height: 318px;
+        min-width: 318px;
+        width: 100%;
+        min-height: 318px;
+        height: 100%;
+        border-radius: 20px;
 
+    }
+
+    .card_l {
+        padding: 0px 25px 25px 25px;
+    }
+
+    .card_icon {
+        margin-top: -3px;
+    }
+
+    .linear-gradient {
+        border-radius: 0px;
+        min-width: 318px;
+        min-height: 318px;
+        height: 100%;
     }
 
     .card_text {
 
-        margin: 25px;
+        margin: 0px;
+        padding: 25px 25px 0px 25px;
     }
 
     label {
@@ -252,17 +319,7 @@
 
 }
 
-@media (max-width: 500px) {
 
-    .choose__menu {
-
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 142%;
-        max-width: 282px;
-        justify-content: center;
-    }
-}
 
 /*Медиа запросы блока photo (Фото путешественников)*/
 

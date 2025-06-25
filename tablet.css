@@ -10,6 +10,11 @@
     .menu__list {
         gap: 40px;
     }
+
+    h2 {
+        padding-top: 100px;
+    }
+
 }
 
 @media (max-width: 860px) {
@@ -61,10 +66,6 @@
 
     }
 
-    .header__text {
-
-        gap: 40px;
-    }
 }
 
 @media (max-width: 620px) {
@@ -88,25 +89,6 @@
         gap: 10px;
     }
 }
-
-@media (max-width: 650px) {
-
-    .main__choose {
-        padding-bottom: 50px;
-    }
-
-    h2 {
-
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 112%;
-        padding-top: 75px;
-        padding-bottom: 20px;
-        letter-spacing: 2px;
-
-    }
-}
-
 
 /*Медиа запросы блока create*/
 
@@ -223,7 +205,7 @@
 
 /*Медиа запросы блока reviews(Отзывы)*/
 
-@media (max-width: 960px) {
+@media (max-width: 940px) {
 
     .main__reviews {
 
@@ -241,7 +223,9 @@
     }
 
     .reviews__h2 {
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-bottom: 50px;
     }
 
@@ -268,52 +252,47 @@
     }
 
     .card__pavel {
-        width: 318px;
-        height: 592px;
+        max-width: 450px;
+        width: 100%;
+        max-height: 700px;
+
     }
 
     .card__mary {
 
-        width: 318px;
-        height: 408px;
+        height: 500px;
+        max-width: 450px;
+        width: 100%;
+        align-items: center;
     }
 
     .text__pavel {
 
-        max-width: 278px;
-        max-height: 437px;
+        max-width: 380px;
+        font-size: 20px;
+        font-weight: 700;
         line-height: 142%;
-
     }
 
     .text__mary {
 
-        max-width: 278px;
-        max-height: 253px;
-        line-height: 142%;
-    }
-
-    .text_rev {
-        display: flex;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 700;
-        max-width: 278px;
-        max-height: 253px;
+        line-height: 142%;
+        max-width: 380px;
     }
 
     .name_rev {
 
         padding-top: 56px;
-
+        display: flex;
+        max-width: 380px;
+        width: 100%;
     }
 
     .card_nprev {
 
-        width: 203px;
-        height: 59px;
         gap: 8px;
-
-
     }
 
     .name_p {
@@ -336,7 +315,7 @@
 
 /*Медиа запросы блока photo (Фото путешественников)*/
 
-@media (max-width: 960px) {
+@media (max-width: 940px) {
 
     .main__photos {
         align-items: center;
@@ -369,7 +348,8 @@
     }
 
     .photo_grid4 .img_tr.photo9 {
-        max-width: 154px;
+        max-width: 200px;
+        max-height: 150px;
     }
 
     .photo10 {
@@ -385,8 +365,8 @@
 
     .photo_grid4 .img_tr {
 
-        max-width: 150px;
-        max-height: 110px;
+        max-width: 200px;
+        max-height: 150px;
     }
 
 
@@ -397,19 +377,34 @@
 
     }
 
-    .photo_grid5 .img_tr {
-
-        max-width: 99px;
-        max-height: 110px;
-    }
-
     .img_tr {
 
         border-radius: 20px;
     }
 
-    .ph4 {
-        gap: 10px;
+    .photo1 {
+        max-width: 200px;
+        max-height: 150px;
+    }
+
+    .photo4 {
+        max-width: 200px;
+        max-height: 150px;
+    }
+
+    .photo5 {
+        max-width: 130px;
+        max-height: 150px;
+    }
+
+    .photo8 {
+        max-width: 130px;
+        max-height: 150px;
+    }
+
+    .photo13 {
+        max-width: 130px;
+        max-height: 150px;
     }
 
 }
@@ -435,8 +430,8 @@
     .card_his {
         display: flex;
         flex-direction: column;
-        width: 318px;
-        height: 455px;
+        max-width: 450px;
+        max-height: 500px;
         background-size: cover;
 
     }
@@ -464,9 +459,7 @@
 
     .his_h3 {
 
-        width: 200px;
-        height: 56px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
 
     }
 
@@ -537,9 +530,8 @@
 
     .img_con {
 
-        max-width: 130px;
-        max-height: 133px;
         border-radius: 20px;
+        max-width: 230px;
     }
 
     .con_text {
@@ -550,9 +542,12 @@
     }
 
     .con_h3 {
-        width: 291px;
-        height: 56px;
+
         text-align: center;
+    }
+
+    .h3_con {
+        max-width: 450px;
     }
 
     .p_con {
