@@ -84,14 +84,75 @@
 
 /*Блок reviews(отзывы)*/
 
+@media (max-width: 500px) {
+
+    .reviews_p {
+        margin-top: -6px;
+        max-width: 318px;
+    }
+
+    .card__mary {
+        width: 318px;
+        height: 408px;
+        padding-top: 23px;
+    }
+
+    .text__mary {
+        font-size: 16px;
+        max-width: 277px;
+    }
+
+    .reviews__cards {
+        align-items: center;
+    }
+
+    .name_rev {
+        padding: 0px;
+    }
+
+    .card_nprev {
+        gap: 12px;
+        max-height: 59px;
+        height: 100%;
+        margin-top: 13px;
+    }
+
+    .name_p {
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.04em;
+        color: #1B1F2B;
+    }
+
+    .card__pavel {
+        max-width: 318px;
+        max-height: 592px;
+        padding-top: 25px;
+    }
+
+    .text__pavel {
+        font-size: 16px;
+    }
+}
+
+
 /*Блок Create, Собери свой тур*/
 
 @media (max-width: 500px) {
 
+    .create__form {
+        gap: 0px;
+        padding: 17px 20px 40px 16px;
+        max-width: 318px;
+        min-height: 1110px;
+        border-radius: 30px;
+    }
+
     .form__input {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
     }
 
     .drop_img {
@@ -109,7 +170,7 @@
         width: 278px;
         height: 43px;
         margin: 0px;
-        padding: 10px;
+        padding: 6px;
         font-size: 16px;
         font-weight: 400;
         line-height: 142%;
@@ -120,7 +181,6 @@
         font-weight: 400;
         line-height: 142%;
     }
-
 
     .cr__p {
 
@@ -140,24 +200,30 @@
     .create__btns {
 
         display: inline-flex;
-
+        margin-top: 3px;
     }
 
     .create__btn {
-        max-width: 134px;
-        max-height: 47px;
+        width: 134px;
+        height: 47px;
         margin-right: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
     }
 
     .create__inp {
         width: 134px;
         height: 47px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
     }
 
     .forms_comment {
 
-        max-width: 278px;
-        max-height: 132px;
+        width: 278px;
+        height: 132px;
         padding: 0px;
 
     }
@@ -168,7 +234,7 @@
         flex-direction: column;
         max-width: 278px;
         height: auto;
-        gap: 30px;
+        gap: 25px;
     }
 
     .rad_lab {
@@ -196,6 +262,18 @@
         margin: 0px;
     }
 
+    .form_age {
+        max-width: 278px;
+        width: 100%;
+        margin-top: 3px;
+        gap: 5px;
+    }
+
+    .age {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 142%;
+    }
 
 }
 
@@ -313,16 +391,93 @@
     .form__in {
 
         gap: 8px;
-        max-width: fit-content;
     }
 
+    .ch_p {
+        max-width: 248px;
+        padding-left: 10px;
+    }
 
+    .check__btn {
+        max-width: 278px;
+        margin-top: 2px;
+    }
+
+    .control {
+        gap: 29px;
+    }
 }
 
 
 
 /*Медиа запросы блока photo (Фото путешественников)*/
 
+@media (max-width: 500px) {
+
+    .p_photo {
+        margin-top: -3px;
+        max-width: 318px;
+    }
+
+    .photos__traveler {
+        max-width: 320px;
+    }
+
+    .photo_grid4 {
+        gap: 13px;
+    }
+
+    .photo1 {
+        width: 150px;
+        height: 110px;
+    }
+
+    .photo4 {
+        width: 150px;
+        height: 110px;
+    }
+
+    .photo5 {
+        width: 99px;
+        height: 110px;
+    }
+
+    .photo8 {
+        width: 99px;
+        height: 110px;
+    }
+
+    .photo13 {
+        width: 99px;
+        height: 110px;
+    }
+
+    .photo9 {
+        width: 154px;
+        height: 110px;
+    }
+
+    .photo10 {
+        width: 154px;
+        height: 110px;
+    }
+}
+
 /*Блок history (Истории путешественников)*/
+
+@media (max-width: 500px) {
+
+    .h2_hisanchor {
+        padding-top: 75px;
+        padding-bottom: 20px;
+    }
+
+    .card_his {
+        max-width: 318px;
+        max-height: 455px;
+        border-radius: 20px;
+    }
+}
+
 
 /*Блок Подвал */

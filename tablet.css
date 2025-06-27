@@ -173,36 +173,6 @@
     }
 }
 
-@media (max-width: 600px) {
-
-    .create__form {
-
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 318px;
-        width: 100%;
-        border-radius: 30px;
-        padding: 20px 20px 40px 20px;
-    }
-}
-
-@media (max-width: 520px) {
-
-    .form {
-
-        margin: 0px;
-    }
-
-    .forms {
-
-        max-width: 278px;
-        max-height: 43px;
-
-    }
-
-}
-
 /*Медиа запросы блока reviews(Отзывы)*/
 
 @media (max-width: 940px) {
