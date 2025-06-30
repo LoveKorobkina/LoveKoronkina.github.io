@@ -477,7 +477,73 @@
         max-height: 455px;
         border-radius: 20px;
     }
+
+    .history__h2 {
+        max-width: 318px;
+        margin-top: -3px;
+    }
+
+    .cardhis_text {
+        max-width: 263px;
+        max-height: 230px
+    }
+
+    .his_h3 {
+        max-width: 150px;
+    }
+
+    .history_text {
+        font-size: 16px;
+        padding-top: 22px;
+    }
+
+    .card_list {
+        font-size: 15px;
+    }
+
+    .clist_ul {
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 0.02em;
+        margin-top: 12px;
+        padding-left: 25px;
+
+    }
+
+    .linhis {
+        margin-bottom: 8px;
+    }
 }
 
 
+/*Блок conclusion Заключение*/
+
+@media (max-width: 500px) {
+
+    .img_con {
+        max-width: 130px;
+        height: 133px;
+    }
+
+    .con_h3 {
+        max-width: 291px;
+    }
+
+    .con_text {
+        gap: 21px;
+    }
+}
+
 /*Блок Подвал */
+
+@media (max-width: 500px) {
+
+    .foot_links {
+        gap: 10px;
+    }
+
+    .foot_t {
+        gap: 10px;
+    }
+
+}
