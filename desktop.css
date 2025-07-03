@@ -212,15 +212,9 @@
         background-size: 130% auto;
     }
 
-    .card_his:hover {
-
-        background-repeat: no-repeat;
-        background-size: 150% auto;
-        background-position: center;
-
-    }
-
 }
+
+
 
 /*Блок footer*/
 

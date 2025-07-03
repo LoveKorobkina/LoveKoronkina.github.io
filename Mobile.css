@@ -353,13 +353,13 @@
     }
 
     .card {
-
+        
         min-width: 318px;
         width: 100%;
         min-height: 318px;
         height: 100%;
         border-radius: 20px;
-
+        
     }
 
     .card_l {

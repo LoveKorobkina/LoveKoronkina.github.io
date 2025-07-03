@@ -79,6 +79,7 @@
 /*Медиа запросы блока choose Выбери свой тур*/
 
 @media (max-width: 800px) {
+
     .choose__menu {
 
         padding-bottom: 50px;
@@ -404,6 +405,14 @@
         max-height: 500px;
         background-size: cover;
 
+    }
+
+    .card_his:hover {
+        background-size: 270% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: background-size 300ms ease;
+        overflow: hidden;
     }
 
     .linear-gradient_his {
