@@ -444,8 +444,8 @@
 
     .cardhis_text {
 
-        width: 263px;
-        height: 230px;
+        height: 100%;
+        max-height: 230px;
     }
 
     .link_socialm {
@@ -474,15 +474,11 @@
     .linhis {
 
         align-items: center;
-        height: 26px;
-        padding-left: 0px;
-        margin-left: 0px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-right: 15px;
+        padding: 7px 20px 7px 20px;
         font-size: 16px;
         font-weight: 700;
         line-height: 142%;
+        width: auto;
     }
 
     .radio {

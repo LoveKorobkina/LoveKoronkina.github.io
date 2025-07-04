@@ -383,7 +383,7 @@ h3 {
 /*------------------------------------------------------------------*/
 @media (min-width: 501px) {
 
-  
+
     .card_link:hover {
 
         background-color: #286562;
@@ -391,11 +391,12 @@ h3 {
         cursor: pointer;
     }
 
-    .card:active .card_link {
+}
 
-        background-color: #EFA501;
-    }
+.card:active .card_link {
 
+    background-color: #EFA501;
+    border-radius: 50px;
 }
 
 /* Блок Собери свой тур*/
@@ -1033,8 +1034,6 @@ option {
     flex-direction: column;
     align-items: self-start;
 }
-
-
 
 .history_text {
 
